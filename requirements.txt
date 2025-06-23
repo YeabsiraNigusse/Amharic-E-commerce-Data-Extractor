@@ -13,7 +13,7 @@ transformers>=4.30.0
 torch>=2.0.0
 
 # Data storage and manipulation
-sqlite3
+# sqlite3 is built into Python
 json5>=0.9.0
 pyyaml>=6.0
 
