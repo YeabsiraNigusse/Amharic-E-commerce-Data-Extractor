@@ -1,0 +1,33 @@
+# Core dependencies for Amharic E-commerce Data Extractor
+telethon>=1.28.5
+python-dotenv>=1.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+aiohttp>=3.8.0
+
+# Text processing and NLP
+nltk>=3.8.1
+spacy>=3.6.0
+transformers>=4.30.0
+torch>=2.0.0
+
+# Data storage and manipulation
+sqlite3
+json5>=0.9.0
+pyyaml>=6.0
+
+# Amharic text processing
+python-bidi>=0.4.2
+arabic-reshaper>=3.0.0
+
+# Logging and utilities
+loguru>=0.7.0
+tqdm>=4.65.0
+click>=8.1.0
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0

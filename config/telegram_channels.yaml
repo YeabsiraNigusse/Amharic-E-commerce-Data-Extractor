@@ -1,0 +1,59 @@
+# Ethiopian Telegram E-commerce Channels Configuration
+# Select at least 5 channels for data collection
+
+channels:
+  # Popular Ethiopian E-commerce Channels
+  - name: "Ethio Mart"
+    username: "@ethiomart"
+    description: "General e-commerce marketplace"
+    category: "marketplace"
+    
+  - name: "Addis Shopping"
+    username: "@addisshopping"
+    description: "Addis Ababa based shopping channel"
+    category: "local_shopping"
+    
+  - name: "Ethiopian Electronics"
+    username: "@ethioelectronics"
+    description: "Electronics and gadgets"
+    category: "electronics"
+    
+  - name: "Fashion Ethiopia"
+    username: "@fashionethiopia"
+    description: "Clothing and fashion items"
+    category: "fashion"
+    
+  - name: "Habesha Market"
+    username: "@habeshamarket"
+    description: "Traditional and modern products"
+    category: "general"
+    
+  - name: "Bole Shopping"
+    username: "@boleshopping"
+    description: "Bole area shopping channel"
+    category: "local_shopping"
+
+# Scraping Configuration
+scraping:
+  max_messages_per_channel: 1000
+  message_types: ["text", "photo", "document"]
+  date_range:
+    start_date: "2024-01-01"
+    end_date: "2024-12-31"
+  
+# Data Processing Settings
+processing:
+  languages: ["am", "en"]  # Amharic and English
+  clean_text: true
+  extract_metadata: true
+  save_images: false  # Set to true if you want to save images
+  
+# Entity Types for NER
+entities:
+  required:
+    - "PRODUCT"
+    - "PRICE" 
+    - "LOCATION"
+  optional:
+    - "DELIVERY_FEE"
+    - "CONTACT_INFO"
