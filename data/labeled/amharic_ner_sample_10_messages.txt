@@ -1,0 +1,134 @@
+# Message ID: sample_001
+# Text: የሕፃናት ልብስ ዋጋ 500 ብር ነው። በቦሌ አካባቢ ይገኛል።
+
+የሕፃናት	O
+ልብስ	O
+ዋጋ	B-PRICE
+500	B-PRICE
+ብር	I-PRICE
+ነው	I-PRICE
+።	O
+በቦሌ	O
+አካባቢ	B-LOCATION
+ይገኛል	O
+።	O
+
+# Message ID: sample_002
+# Text: ስልክ ቁጥር 0911234567 ላይ ይደውሉ። አዲስ አበባ ውስጥ ነን።
+
+ስልክ	O
+ቁጥር	O
+0911234567	B-CONTACT_INFO
+ላይ	O
+ይደውሉ	O
+።	O
+አዲስ	B-LOCATION
+አበባ	I-LOCATION
+ውስጥ	O
+ነን	O
+።	O
+
+# Message ID: sample_003
+# Text: የሴቶች ጫማ በ 800 ብር። ፒያሳ አካባቢ ይገኛል።
+
+የሴቶች	O
+ጫማ	O
+በ	B-PRICE
+800	I-PRICE
+ብር	I-PRICE
+።	O
+ፒያሳ	B-LOCATION
+አካባቢ	O
+ይገኛል	O
+።	O
+
+# Message ID: sample_004
+# Text: ላፕቶፕ ዋጋ 25000 ብር። ዴሊቨሪ ነፃ ነው።
+
+ላፕቶፕ	O
+ዋጋ	B-PRICE
+25000	B-PRICE
+ብር	I-PRICE
+።	O
+ዴሊቨሪ	O
+ነፃ	O
+ነው	O
+።	O
+
+# Message ID: sample_005
+# Text: የወንዶች ሸሚዝ 300 ብር። @ethioshop ላይ ይገናኙን።
+
+የወንዶች	O
+ሸሚዝ	O
+300	B-PRICE
+ብር	I-PRICE
+።	O
+@ethioshop	B-CONTACT_INFO
+ላይ	O
+ይገናኙን	O
+።	O
+
+# Message ID: sample_006
+# Text: የቤት እቃዎች በመርካቶ። ዋጋ 1500 ብር ነው።
+
+የቤት	O
+እቃዎች	O
+በመርካቶ	O
+።	B-LOCATION
+ዋጋ	B-PRICE
+1500	B-PRICE
+ብር	I-PRICE
+ነው	I-PRICE
+።	O
+
+# Message ID: sample_007
+# Text: ስማርት ፎን ETB 15000። ካዛንቺስ አካባቢ።
+
+ስማርት	O
+ፎን	O
+ETB	B-PRICE
+15000	I-PRICE
+።	O
+ካዛንቺስ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_008
+# Text: የሴቶች ቦርሳ 450 ብር። ዴሊቨሪ ክፍያ 50 ብር።
+
+የሴቶች	O
+ቦርሳ	O
+450	B-PRICE
+ብር	I-PRICE
+።	O
+ዴሊቨሪ	O
+ክፍያ	O
+50	B-PRICE
+ብር	I-PRICE
+።	O
+
+# Message ID: sample_009
+# Text: የመጽሐፍ መደብር በጎፋ። ዋጋ 200 ብር ነው።
+
+የመጽሐፍ	O
+መደብር	O
+በጎፋ	O
+።	B-LOCATION
+ዋጋ	B-PRICE
+200	B-PRICE
+ብር	I-PRICE
+ነው	I-PRICE
+።	O
+
+# Message ID: sample_010
+# Text: የኮምፒውተር አክሰሰሪዎች በ 1200 ብር። ኪርኮስ አካባቢ።
+
+የኮምፒውተር	O
+አክሰሰሪዎች	O
+በ	B-PRICE
+1200	I-PRICE
+ብር	I-PRICE
+።	O
+ኪርኮስ	B-LOCATION
+አካባቢ	O
+።	O

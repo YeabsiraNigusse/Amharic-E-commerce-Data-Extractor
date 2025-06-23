@@ -1,0 +1,1392 @@
+[
+  {
+    "text": "የሕፃናት ልብስ ዋጋ 500 ብር ነው። በቦሌ አካባቢ ይገኛል።",
+    "tokens": [
+      "የሕፃናት",
+      "ልብስ",
+      "ዋጋ",
+      "500",
+      "ብር",
+      "ነው",
+      "።",
+      "በቦሌ",
+      "አካባቢ",
+      "ይገኛል",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሕፃናት\tO\nልብስ\tO\nዋጋ\tB-PRICE\n500\tB-PRICE\nብር\tI-PRICE\nነው\tI-PRICE\n።\tO\nበቦሌ\tO\nአካባቢ\tB-LOCATION\nይገኛል\tO\n።\tO",
+    "token_count": 11,
+    "message_id": "sample_001"
+  },
+  {
+    "text": "ስልክ ቁጥር 0911234567 ላይ ይደውሉ። አዲስ አበባ ውስጥ ነን።",
+    "tokens": [
+      "ስልክ",
+      "ቁጥር",
+      "0911234567",
+      "ላይ",
+      "ይደውሉ",
+      "።",
+      "አዲስ",
+      "አበባ",
+      "ውስጥ",
+      "ነን",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-CONTACT_INFO",
+      "O",
+      "O",
+      "O",
+      "B-LOCATION",
+      "I-LOCATION",
+      "O",
+      "O",
+      "O"
+    ],
+    "conll_format": "ስልክ\tO\nቁጥር\tO\n0911234567\tB-CONTACT_INFO\nላይ\tO\nይደውሉ\tO\n።\tO\nአዲስ\tB-LOCATION\nአበባ\tI-LOCATION\nውስጥ\tO\nነን\tO\n።\tO",
+    "token_count": 11,
+    "message_id": "sample_002"
+  },
+  {
+    "text": "የሴቶች ጫማ በ 800 ብር። ፒያሳ አካባቢ ይገኛል።",
+    "tokens": [
+      "የሴቶች",
+      "ጫማ",
+      "በ",
+      "800",
+      "ብር",
+      "።",
+      "ፒያሳ",
+      "አካባቢ",
+      "ይገኛል",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nጫማ\tO\nበ\tB-PRICE\n800\tI-PRICE\nብር\tI-PRICE\n።\tO\nፒያሳ\tB-LOCATION\nአካባቢ\tO\nይገኛል\tO\n።\tO",
+    "token_count": 10,
+    "message_id": "sample_003"
+  },
+  {
+    "text": "ላፕቶፕ ዋጋ 25000 ብር። ዴሊቨሪ ነፃ ነው።",
+    "tokens": [
+      "ላፕቶፕ",
+      "ዋጋ",
+      "25000",
+      "ብር",
+      "።",
+      "ዴሊቨሪ",
+      "ነፃ",
+      "ነው",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "conll_format": "ላፕቶፕ\tO\nዋጋ\tB-PRICE\n25000\tB-PRICE\nብር\tI-PRICE\n።\tO\nዴሊቨሪ\tO\nነፃ\tO\nነው\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_004"
+  },
+  {
+    "text": "የወንዶች ሸሚዝ 300 ብር። @ethioshop ላይ ይገናኙን።",
+    "tokens": [
+      "የወንዶች",
+      "ሸሚዝ",
+      "300",
+      "ብር",
+      "።",
+      "@ethioshop",
+      "ላይ",
+      "ይገናኙን",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-CONTACT_INFO",
+      "O",
+      "O",
+      "O"
+    ],
+    "conll_format": "የወንዶች\tO\nሸሚዝ\tO\n300\tB-PRICE\nብር\tI-PRICE\n።\tO\n@ethioshop\tB-CONTACT_INFO\nላይ\tO\nይገናኙን\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_005"
+  },
+  {
+    "text": "የቤት እቃዎች በመርካቶ። ዋጋ 1500 ብር ነው።",
+    "tokens": [
+      "የቤት",
+      "እቃዎች",
+      "በመርካቶ",
+      "።",
+      "ዋጋ",
+      "1500",
+      "ብር",
+      "ነው",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-LOCATION",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O"
+    ],
+    "conll_format": "የቤት\tO\nእቃዎች\tO\nበመርካቶ\tO\n።\tB-LOCATION\nዋጋ\tB-PRICE\n1500\tB-PRICE\nብር\tI-PRICE\nነው\tI-PRICE\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_006"
+  },
+  {
+    "text": "ስማርት ፎን ETB 15000። ካዛንቺስ አካባቢ።",
+    "tokens": [
+      "ስማርት",
+      "ፎን",
+      "ETB",
+      "15000",
+      "።",
+      "ካዛንቺስ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "ስማርት\tO\nፎን\tO\nETB\tB-PRICE\n15000\tI-PRICE\n።\tO\nካዛንቺስ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_007"
+  },
+  {
+    "text": "የሴቶች ቦርሳ 450 ብር። ዴሊቨሪ ክፍያ 50 ብር።",
+    "tokens": [
+      "የሴቶች",
+      "ቦርሳ",
+      "450",
+      "ብር",
+      "።",
+      "ዴሊቨሪ",
+      "ክፍያ",
+      "50",
+      "ብር",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nቦርሳ\tO\n450\tB-PRICE\nብር\tI-PRICE\n።\tO\nዴሊቨሪ\tO\nክፍያ\tO\n50\tB-PRICE\nብር\tI-PRICE\n።\tO",
+    "token_count": 10,
+    "message_id": "sample_008"
+  },
+  {
+    "text": "የመጽሐፍ መደብር በጎፋ። ዋጋ 200 ብር ነው።",
+    "tokens": [
+      "የመጽሐፍ",
+      "መደብር",
+      "በጎፋ",
+      "።",
+      "ዋጋ",
+      "200",
+      "ብር",
+      "ነው",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-LOCATION",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O"
+    ],
+    "conll_format": "የመጽሐፍ\tO\nመደብር\tO\nበጎፋ\tO\n።\tB-LOCATION\nዋጋ\tB-PRICE\n200\tB-PRICE\nብር\tI-PRICE\nነው\tI-PRICE\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_009"
+  },
+  {
+    "text": "የኮምፒውተር አክሰሰሪዎች በ 1200 ብር። ኪርኮስ አካባቢ።",
+    "tokens": [
+      "የኮምፒውተር",
+      "አክሰሰሪዎች",
+      "በ",
+      "1200",
+      "ብር",
+      "።",
+      "ኪርኮስ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የኮምፒውተር\tO\nአክሰሰሪዎች\tO\nበ\tB-PRICE\n1200\tI-PRICE\nብር\tI-PRICE\n።\tO\nኪርኮስ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_010"
+  },
+  {
+    "text": "የሕፃናት መጫወቻ 150 ብር። በላፍቶ ይገኛል።",
+    "tokens": [
+      "የሕፃናት",
+      "መጫወቻ",
+      "150",
+      "ብር",
+      "።",
+      "በላፍቶ",
+      "ይገኛል",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "O",
+      "B-LOCATION",
+      "O"
+    ],
+    "conll_format": "የሕፃናት\tO\nመጫወቻ\tO\n150\tB-PRICE\nብር\tI-PRICE\n።\tO\nበላፍቶ\tO\nይገኛል\tB-LOCATION\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_011"
+  },
+  {
+    "text": "የወንዶች ሱሪ ዋጋ 600 ብር። ዴሊቨሪ 30 ብር።",
+    "tokens": [
+      "የወንዶች",
+      "ሱሪ",
+      "ዋጋ",
+      "600",
+      "ብር",
+      "።",
+      "ዴሊቨሪ",
+      "30",
+      "ብር",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O"
+    ],
+    "conll_format": "የወንዶች\tO\nሱሪ\tO\nዋጋ\tB-PRICE\n600\tB-PRICE\nብር\tI-PRICE\n።\tO\nዴሊቨሪ\tO\n30\tB-PRICE\nብር\tI-PRICE\n።\tO",
+    "token_count": 10,
+    "message_id": "sample_012"
+  },
+  {
+    "text": "የሴቶች ቀሚስ በ 900 ብር። ቦሌ ሜዳኒያለም አካባቢ።",
+    "tokens": [
+      "የሴቶች",
+      "ቀሚስ",
+      "በ",
+      "900",
+      "ብር",
+      "።",
+      "ቦሌ",
+      "ሜዳኒያለም",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nቀሚስ\tO\nበ\tB-PRICE\n900\tI-PRICE\nብር\tI-PRICE\n።\tO\nቦሌ\tB-LOCATION\nሜዳኒያለም\tO\nአካባቢ\tO\n።\tO",
+    "token_count": 10,
+    "message_id": "sample_013"
+  },
+  {
+    "text": "የስልክ ኬዝ 80 ብር። @phonecase_et ላይ ይገናኙ።",
+    "tokens": [
+      "የስልክ",
+      "ኬዝ",
+      "80",
+      "ብር",
+      "።",
+      "@phonecase_et",
+      "ላይ",
+      "ይገናኙ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-CONTACT_INFO",
+      "O",
+      "O",
+      "O"
+    ],
+    "conll_format": "የስልክ\tO\nኬዝ\tO\n80\tB-PRICE\nብር\tI-PRICE\n።\tO\n@phonecase_et\tB-CONTACT_INFO\nላይ\tO\nይገናኙ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_014"
+  },
+  {
+    "text": "የቤት ዕቃዎች በአዲስ አበባ። ዋጋ 2500 ብር።",
+    "tokens": [
+      "የቤት",
+      "ዕቃዎች",
+      "በአዲስ",
+      "አበባ",
+      "።",
+      "ዋጋ",
+      "2500",
+      "ብር",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-LOCATION",
+      "I-LOCATION",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "O"
+    ],
+    "conll_format": "የቤት\tO\nዕቃዎች\tO\nበአዲስ\tO\nአበባ\tB-LOCATION\n።\tI-LOCATION\nዋጋ\tB-PRICE\n2500\tB-PRICE\nብር\tI-PRICE\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_015"
+  },
+  {
+    "text": "የሴቶች ሰዓት 1200 ብር። ፒያሳ ማዕከል።",
+    "tokens": [
+      "የሴቶች",
+      "ሰዓት",
+      "1200",
+      "ብር",
+      "።",
+      "ፒያሳ",
+      "ማዕከል",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nሰዓት\tO\n1200\tB-PRICE\nብር\tI-PRICE\n።\tO\nፒያሳ\tB-LOCATION\nማዕከል\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_016"
+  },
+  {
+    "text": "የወንዶች ጫማ በ 1100 ብር። ዴሊቨሪ ነፃ።",
+    "tokens": [
+      "የወንዶች",
+      "ጫማ",
+      "በ",
+      "1100",
+      "ብር",
+      "።",
+      "ዴሊቨሪ",
+      "ነፃ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "conll_format": "የወንዶች\tO\nጫማ\tO\nበ\tB-PRICE\n1100\tI-PRICE\nብር\tI-PRICE\n።\tO\nዴሊቨሪ\tO\nነፃ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_017"
+  },
+  {
+    "text": "የሕፃናት ልብስ ስብስብ 800 ብር። መርካቶ አካባቢ።",
+    "tokens": [
+      "የሕፃናት",
+      "ልብስ",
+      "ስብስብ",
+      "800",
+      "ብር",
+      "።",
+      "መርካቶ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሕፃናት\tO\nልብስ\tO\nስብስብ\tO\n800\tB-PRICE\nብር\tI-PRICE\n።\tO\nመርካቶ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_018"
+  },
+  {
+    "text": "የኮምፒውተር ማውስ 250 ብር። ካዛንቺስ ውስጥ።",
+    "tokens": [
+      "የኮምፒውተር",
+      "ማውስ",
+      "250",
+      "ብር",
+      "።",
+      "ካዛንቺስ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የኮምፒውተር\tO\nማውስ\tO\n250\tB-PRICE\nብር\tI-PRICE\n።\tO\nካዛንቺስ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_019"
+  },
+  {
+    "text": "የሴቶች ቦርሳ ስብስብ 1500 ብር። ጎፋ አካባቢ።",
+    "tokens": [
+      "የሴቶች",
+      "ቦርሳ",
+      "ስብስብ",
+      "1500",
+      "ብር",
+      "።",
+      "ጎፋ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nቦርሳ\tO\nስብስብ\tO\n1500\tB-PRICE\nብር\tI-PRICE\n።\tO\nጎፋ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_020"
+  },
+  {
+    "text": "የወንዶች ቲሸርት 180 ብር። ዴሊቨሪ 25 ብር።",
+    "tokens": [
+      "የወንዶች",
+      "ቲሸርት",
+      "180",
+      "ብር",
+      "።",
+      "ዴሊቨሪ",
+      "25",
+      "ብር",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O"
+    ],
+    "conll_format": "የወንዶች\tO\nቲሸርት\tO\n180\tB-PRICE\nብር\tI-PRICE\n።\tO\nዴሊቨሪ\tO\n25\tB-PRICE\nብር\tI-PRICE\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_021"
+  },
+  {
+    "text": "የሕፃናት ጫማ በ 350 ብር። ኪርኮስ ውስጥ።",
+    "tokens": [
+      "የሕፃናት",
+      "ጫማ",
+      "በ",
+      "350",
+      "ብር",
+      "።",
+      "ኪርኮስ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሕፃናት\tO\nጫማ\tO\nበ\tB-PRICE\n350\tI-PRICE\nብር\tI-PRICE\n።\tO\nኪርኮስ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_022"
+  },
+  {
+    "text": "የስልክ ቻርጀር 120 ብር። @accessories_et ላይ።",
+    "tokens": [
+      "የስልክ",
+      "ቻርጀር",
+      "120",
+      "ብር",
+      "።",
+      "@accessories_et",
+      "ላይ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-CONTACT_INFO",
+      "O",
+      "O"
+    ],
+    "conll_format": "የስልክ\tO\nቻርጀር\tO\n120\tB-PRICE\nብር\tI-PRICE\n።\tO\n@accessories_et\tB-CONTACT_INFO\nላይ\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_023"
+  },
+  {
+    "text": "የቤት ማስዋቢያ 450 ብር። ላፍቶ አካባቢ።",
+    "tokens": [
+      "የቤት",
+      "ማስዋቢያ",
+      "450",
+      "ብር",
+      "።",
+      "ላፍቶ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የቤት\tO\nማስዋቢያ\tO\n450\tB-PRICE\nብር\tI-PRICE\n።\tO\nላፍቶ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_024"
+  },
+  {
+    "text": "የሴቶች ሸሚዝ ዋጋ 400 ብር። ቦሌ ውስጥ።",
+    "tokens": [
+      "የሴቶች",
+      "ሸሚዝ",
+      "ዋጋ",
+      "400",
+      "ብር",
+      "።",
+      "ቦሌ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nሸሚዝ\tO\nዋጋ\tB-PRICE\n400\tB-PRICE\nብር\tI-PRICE\n።\tO\nቦሌ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_025"
+  },
+  {
+    "text": "የወንዶች ቀሚስ ሱሪ 1200 ብር። አዲስ አበባ።",
+    "tokens": [
+      "የወንዶች",
+      "ቀሚስ",
+      "ሱሪ",
+      "1200",
+      "ብር",
+      "።",
+      "አዲስ",
+      "አበባ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "I-LOCATION",
+      "O"
+    ],
+    "conll_format": "የወንዶች\tO\nቀሚስ\tO\nሱሪ\tO\n1200\tB-PRICE\nብር\tI-PRICE\n።\tO\nአዲስ\tB-LOCATION\nአበባ\tI-LOCATION\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_026"
+  },
+  {
+    "text": "የሕፃናት መጫወቻ ስብስብ 600 ብር። ፒያሳ ውስጥ።",
+    "tokens": [
+      "የሕፃናት",
+      "መጫወቻ",
+      "ስብስብ",
+      "600",
+      "ብር",
+      "።",
+      "ፒያሳ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሕፃናት\tO\nመጫወቻ\tO\nስብስብ\tO\n600\tB-PRICE\nብር\tI-PRICE\n።\tO\nፒያሳ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_027"
+  },
+  {
+    "text": "የኮምፒውተር ኪቦርድ 800 ብር። መርካቶ አካባቢ።",
+    "tokens": [
+      "የኮምፒውተር",
+      "ኪቦርድ",
+      "800",
+      "ብር",
+      "።",
+      "መርካቶ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የኮምፒውተር\tO\nኪቦርድ\tO\n800\tB-PRICE\nብር\tI-PRICE\n።\tO\nመርካቶ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_028"
+  },
+  {
+    "text": "የሴቶች ጌጣጌጥ 300 ብር። ዴሊቨሪ 20 ብር።",
+    "tokens": [
+      "የሴቶች",
+      "ጌጣጌጥ",
+      "300",
+      "ብር",
+      "።",
+      "ዴሊቨሪ",
+      "20",
+      "ብር",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nጌጣጌጥ\tO\n300\tB-PRICE\nብር\tI-PRICE\n።\tO\nዴሊቨሪ\tO\n20\tB-PRICE\nብር\tI-PRICE\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_029"
+  },
+  {
+    "text": "የወንዶች ቦርሳ በ 950 ብር። ካዛንቺስ አካባቢ።",
+    "tokens": [
+      "የወንዶች",
+      "ቦርሳ",
+      "በ",
+      "950",
+      "ብር",
+      "።",
+      "ካዛንቺስ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የወንዶች\tO\nቦርሳ\tO\nበ\tB-PRICE\n950\tI-PRICE\nብር\tI-PRICE\n።\tO\nካዛንቺስ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_030"
+  },
+  {
+    "text": "የሕፃናት መጽሐፍ 85 ብር። ጎፋ ውስጥ።",
+    "tokens": [
+      "የሕፃናት",
+      "መጽሐፍ",
+      "85",
+      "ብር",
+      "።",
+      "ጎፋ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሕፃናት\tO\nመጽሐፍ\tO\n85\tB-PRICE\nብር\tI-PRICE\n።\tO\nጎፋ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_031"
+  },
+  {
+    "text": "የስልክ ስክሪን ፕሮቴክተር 45 ብር። ኪርኮስ።",
+    "tokens": [
+      "የስልክ",
+      "ስክሪን",
+      "ፕሮቴክተር",
+      "45",
+      "ብር",
+      "።",
+      "ኪርኮስ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O"
+    ],
+    "conll_format": "የስልክ\tO\nስክሪን\tO\nፕሮቴክተር\tO\n45\tB-PRICE\nብር\tI-PRICE\n።\tO\nኪርኮስ\tB-LOCATION\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_032"
+  },
+  {
+    "text": "የቤት ማጽጃ እቃዎች 280 ብር። ላፍቶ አካባቢ።",
+    "tokens": [
+      "የቤት",
+      "ማጽጃ",
+      "እቃዎች",
+      "280",
+      "ብር",
+      "።",
+      "ላፍቶ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የቤት\tO\nማጽጃ\tO\nእቃዎች\tO\n280\tB-PRICE\nብር\tI-PRICE\n።\tO\nላፍቶ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_033"
+  },
+  {
+    "text": "የሴቶች ሱሪ ዋጋ 520 ብር። ቦሌ ውስጥ።",
+    "tokens": [
+      "የሴቶች",
+      "ሱሪ",
+      "ዋጋ",
+      "520",
+      "ብር",
+      "።",
+      "ቦሌ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nሱሪ\tO\nዋጋ\tB-PRICE\n520\tB-PRICE\nብር\tI-PRICE\n።\tO\nቦሌ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_034"
+  },
+  {
+    "text": "የወንዶች ጃኬት በ 1800 ብር። አዲስ አበባ።",
+    "tokens": [
+      "የወንዶች",
+      "ጃኬት",
+      "በ",
+      "1800",
+      "ብር",
+      "።",
+      "አዲስ",
+      "አበባ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "I-LOCATION",
+      "O"
+    ],
+    "conll_format": "የወንዶች\tO\nጃኬት\tO\nበ\tB-PRICE\n1800\tI-PRICE\nብር\tI-PRICE\n።\tO\nአዲስ\tB-LOCATION\nአበባ\tI-LOCATION\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_035"
+  },
+  {
+    "text": "የሕፃናት ሱሪ 120 ብር። ፒያሳ አካባቢ።",
+    "tokens": [
+      "የሕፃናት",
+      "ሱሪ",
+      "120",
+      "ብር",
+      "።",
+      "ፒያሳ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሕፃናት\tO\nሱሪ\tO\n120\tB-PRICE\nብር\tI-PRICE\n።\tO\nፒያሳ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_036"
+  },
+  {
+    "text": "የኮምፒውተር ስፒከር 650 ብር። መርካቶ ውስጥ።",
+    "tokens": [
+      "የኮምፒውተር",
+      "ስፒከር",
+      "650",
+      "ብር",
+      "።",
+      "መርካቶ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የኮምፒውተር\tO\nስፒከር\tO\n650\tB-PRICE\nብር\tI-PRICE\n።\tO\nመርካቶ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_037"
+  },
+  {
+    "text": "የሴቶች ሰንደል 380 ብር። ዴሊቨሪ 35 ብር።",
+    "tokens": [
+      "የሴቶች",
+      "ሰንደል",
+      "380",
+      "ብር",
+      "።",
+      "ዴሊቨሪ",
+      "35",
+      "ብር",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nሰንደል\tO\n380\tB-PRICE\nብር\tI-PRICE\n።\tO\nዴሊቨሪ\tO\n35\tB-PRICE\nብር\tI-PRICE\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_038"
+  },
+  {
+    "text": "የወንዶች ሰዓት ዋጋ 2200 ብር። ካዛንቺስ።",
+    "tokens": [
+      "የወንዶች",
+      "ሰዓት",
+      "ዋጋ",
+      "2200",
+      "ብር",
+      "።",
+      "ካዛንቺስ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O"
+    ],
+    "conll_format": "የወንዶች\tO\nሰዓት\tO\nዋጋ\tB-PRICE\n2200\tB-PRICE\nብር\tI-PRICE\n።\tO\nካዛንቺስ\tB-LOCATION\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_039"
+  },
+  {
+    "text": "የሕፃናት ቀሚስ በ 220 ብር። ጎፋ አካባቢ።",
+    "tokens": [
+      "የሕፃናት",
+      "ቀሚስ",
+      "በ",
+      "220",
+      "ብር",
+      "።",
+      "ጎፋ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሕፃናት\tO\nቀሚስ\tO\nበ\tB-PRICE\n220\tI-PRICE\nብር\tI-PRICE\n።\tO\nጎፋ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_040"
+  },
+  {
+    "text": "የስልክ ኢርፎን 180 ብር። @audio_et ላይ።",
+    "tokens": [
+      "የስልክ",
+      "ኢርፎን",
+      "180",
+      "ብር",
+      "።",
+      "@audio_et",
+      "ላይ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-CONTACT_INFO",
+      "O",
+      "O"
+    ],
+    "conll_format": "የስልክ\tO\nኢርፎን\tO\n180\tB-PRICE\nብር\tI-PRICE\n።\tO\n@audio_et\tB-CONTACT_INFO\nላይ\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_041"
+  },
+  {
+    "text": "የቤት ማብሰያ እቃዎች 1100 ብር። ኪርኮስ ውስጥ።",
+    "tokens": [
+      "የቤት",
+      "ማብሰያ",
+      "እቃዎች",
+      "1100",
+      "ብር",
+      "።",
+      "ኪርኮስ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የቤት\tO\nማብሰያ\tO\nእቃዎች\tO\n1100\tB-PRICE\nብር\tI-PRICE\n።\tO\nኪርኮስ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_042"
+  },
+  {
+    "text": "የሴቶች ኮት ዋጋ 1600 ብር። ላፍቶ አካባቢ።",
+    "tokens": [
+      "የሴቶች",
+      "ኮት",
+      "ዋጋ",
+      "1600",
+      "ብር",
+      "።",
+      "ላፍቶ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nኮት\tO\nዋጋ\tB-PRICE\n1600\tB-PRICE\nብር\tI-PRICE\n።\tO\nላፍቶ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_043"
+  },
+  {
+    "text": "የወንዶች ሱሪ ስብስብ 1400 ብር። ቦሌ ውስጥ።",
+    "tokens": [
+      "የወንዶች",
+      "ሱሪ",
+      "ስብስብ",
+      "1400",
+      "ብር",
+      "።",
+      "ቦሌ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የወንዶች\tO\nሱሪ\tO\nስብስብ\tO\n1400\tB-PRICE\nብር\tI-PRICE\n።\tO\nቦሌ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_044"
+  },
+  {
+    "text": "የሕፃናት ጫማ ስብስብ 750 ብር። አዲስ አበባ።",
+    "tokens": [
+      "የሕፃናት",
+      "ጫማ",
+      "ስብስብ",
+      "750",
+      "ብር",
+      "።",
+      "አዲስ",
+      "አበባ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "I-LOCATION",
+      "O"
+    ],
+    "conll_format": "የሕፃናት\tO\nጫማ\tO\nስብስብ\tO\n750\tB-PRICE\nብር\tI-PRICE\n።\tO\nአዲስ\tB-LOCATION\nአበባ\tI-LOCATION\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_045"
+  },
+  {
+    "text": "የኮምፒውተር ካሜራ 950 ብር። ፒያሳ ውስጥ።",
+    "tokens": [
+      "የኮምፒውተር",
+      "ካሜራ",
+      "950",
+      "ብር",
+      "።",
+      "ፒያሳ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የኮምፒውተር\tO\nካሜራ\tO\n950\tB-PRICE\nብር\tI-PRICE\n።\tO\nፒያሳ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 8,
+    "message_id": "sample_046"
+  },
+  {
+    "text": "የሴቶች ቦርሳ ዋጋ 680 ብር። መርካቶ አካባቢ።",
+    "tokens": [
+      "የሴቶች",
+      "ቦርሳ",
+      "ዋጋ",
+      "680",
+      "ብር",
+      "።",
+      "መርካቶ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሴቶች\tO\nቦርሳ\tO\nዋጋ\tB-PRICE\n680\tB-PRICE\nብር\tI-PRICE\n።\tO\nመርካቶ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_047"
+  },
+  {
+    "text": "የወንዶች ቤልት በ 320 ብር። ዴሊቨሪ 15 ብር።",
+    "tokens": [
+      "የወንዶች",
+      "ቤልት",
+      "በ",
+      "320",
+      "ብር",
+      "።",
+      "ዴሊቨሪ",
+      "15",
+      "ብር",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "I-PRICE",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O"
+    ],
+    "conll_format": "የወንዶች\tO\nቤልት\tO\nበ\tB-PRICE\n320\tI-PRICE\nብር\tI-PRICE\n።\tO\nዴሊቨሪ\tO\n15\tB-PRICE\nብር\tI-PRICE\n።\tO",
+    "token_count": 10,
+    "message_id": "sample_048"
+  },
+  {
+    "text": "የሕፃናት መጫወቻ መኪና 280 ብር። ካዛንቺስ ውስጥ።",
+    "tokens": [
+      "የሕፃናት",
+      "መጫወቻ",
+      "መኪና",
+      "280",
+      "ብር",
+      "።",
+      "ካዛንቺስ",
+      "ውስጥ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የሕፃናት\tO\nመጫወቻ\tO\nመኪና\tO\n280\tB-PRICE\nብር\tI-PRICE\n።\tO\nካዛንቺስ\tB-LOCATION\nውስጥ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_049"
+  },
+  {
+    "text": "የስልክ ፓወር ባንክ 450 ብር። ጎፋ አካባቢ።",
+    "tokens": [
+      "የስልክ",
+      "ፓወር",
+      "ባንክ",
+      "450",
+      "ብር",
+      "።",
+      "ጎፋ",
+      "አካባቢ",
+      "።"
+    ],
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "B-PRICE",
+      "I-PRICE",
+      "O",
+      "B-LOCATION",
+      "O",
+      "O"
+    ],
+    "conll_format": "የስልክ\tO\nፓወር\tO\nባንክ\tO\n450\tB-PRICE\nብር\tI-PRICE\n።\tO\nጎፋ\tB-LOCATION\nአካባቢ\tO\n።\tO",
+    "token_count": 9,
+    "message_id": "sample_050"
+  }
+]

@@ -1,0 +1,5 @@
+2025-06-23 17:46:17 | INFO | src.utils.data_utils:setup_logging:159 | Logging setup completed
+2025-06-23 17:46:17 | INFO | __main__:main:146 | ============================================================
+2025-06-23 17:46:17 | INFO | __main__:main:147 | AMHARIC E-COMMERCE DATA EXTRACTOR - TASK 2
+2025-06-23 17:46:17 | INFO | __main__:main:148 | CoNLL Format Labeling
+2025-06-23 17:46:17 | INFO | __main__:main:149 | ============================================================

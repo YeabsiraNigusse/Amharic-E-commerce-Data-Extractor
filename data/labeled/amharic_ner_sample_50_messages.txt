@@ -1,0 +1,644 @@
+# Message ID: sample_001
+# Text: የሕፃናት ልብስ ዋጋ 500 ብር ነው። በቦሌ አካባቢ ይገኛል።
+
+የሕፃናት	O
+ልብስ	O
+ዋጋ	B-PRICE
+500	B-PRICE
+ብር	I-PRICE
+ነው	I-PRICE
+።	O
+በቦሌ	O
+አካባቢ	B-LOCATION
+ይገኛል	O
+።	O
+
+# Message ID: sample_002
+# Text: ስልክ ቁጥር 0911234567 ላይ ይደውሉ። አዲስ አበባ ውስጥ ነን።
+
+ስልክ	O
+ቁጥር	O
+0911234567	B-CONTACT_INFO
+ላይ	O
+ይደውሉ	O
+።	O
+አዲስ	B-LOCATION
+አበባ	I-LOCATION
+ውስጥ	O
+ነን	O
+።	O
+
+# Message ID: sample_003
+# Text: የሴቶች ጫማ በ 800 ብር። ፒያሳ አካባቢ ይገኛል።
+
+የሴቶች	O
+ጫማ	O
+በ	B-PRICE
+800	I-PRICE
+ብር	I-PRICE
+።	O
+ፒያሳ	B-LOCATION
+አካባቢ	O
+ይገኛል	O
+።	O
+
+# Message ID: sample_004
+# Text: ላፕቶፕ ዋጋ 25000 ብር። ዴሊቨሪ ነፃ ነው።
+
+ላፕቶፕ	O
+ዋጋ	B-PRICE
+25000	B-PRICE
+ብር	I-PRICE
+።	O
+ዴሊቨሪ	O
+ነፃ	O
+ነው	O
+።	O
+
+# Message ID: sample_005
+# Text: የወንዶች ሸሚዝ 300 ብር። @ethioshop ላይ ይገናኙን።
+
+የወንዶች	O
+ሸሚዝ	O
+300	B-PRICE
+ብር	I-PRICE
+።	O
+@ethioshop	B-CONTACT_INFO
+ላይ	O
+ይገናኙን	O
+።	O
+
+# Message ID: sample_006
+# Text: የቤት እቃዎች በመርካቶ። ዋጋ 1500 ብር ነው።
+
+የቤት	O
+እቃዎች	O
+በመርካቶ	O
+።	B-LOCATION
+ዋጋ	B-PRICE
+1500	B-PRICE
+ብር	I-PRICE
+ነው	I-PRICE
+።	O
+
+# Message ID: sample_007
+# Text: ስማርት ፎን ETB 15000። ካዛንቺስ አካባቢ።
+
+ስማርት	O
+ፎን	O
+ETB	B-PRICE
+15000	I-PRICE
+።	O
+ካዛንቺስ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_008
+# Text: የሴቶች ቦርሳ 450 ብር። ዴሊቨሪ ክፍያ 50 ብር።
+
+የሴቶች	O
+ቦርሳ	O
+450	B-PRICE
+ብር	I-PRICE
+።	O
+ዴሊቨሪ	O
+ክፍያ	O
+50	B-PRICE
+ብር	I-PRICE
+።	O
+
+# Message ID: sample_009
+# Text: የመጽሐፍ መደብር በጎፋ። ዋጋ 200 ብር ነው።
+
+የመጽሐፍ	O
+መደብር	O
+በጎፋ	O
+።	B-LOCATION
+ዋጋ	B-PRICE
+200	B-PRICE
+ብር	I-PRICE
+ነው	I-PRICE
+።	O
+
+# Message ID: sample_010
+# Text: የኮምፒውተር አክሰሰሪዎች በ 1200 ብር። ኪርኮስ አካባቢ።
+
+የኮምፒውተር	O
+አክሰሰሪዎች	O
+በ	B-PRICE
+1200	I-PRICE
+ብር	I-PRICE
+።	O
+ኪርኮስ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_011
+# Text: የሕፃናት መጫወቻ 150 ብር። በላፍቶ ይገኛል።
+
+የሕፃናት	O
+መጫወቻ	O
+150	B-PRICE
+ብር	I-PRICE
+።	O
+በላፍቶ	O
+ይገኛል	B-LOCATION
+።	O
+
+# Message ID: sample_012
+# Text: የወንዶች ሱሪ ዋጋ 600 ብር። ዴሊቨሪ 30 ብር።
+
+የወንዶች	O
+ሱሪ	O
+ዋጋ	B-PRICE
+600	B-PRICE
+ብር	I-PRICE
+።	O
+ዴሊቨሪ	O
+30	B-PRICE
+ብር	I-PRICE
+።	O
+
+# Message ID: sample_013
+# Text: የሴቶች ቀሚስ በ 900 ብር። ቦሌ ሜዳኒያለም አካባቢ።
+
+የሴቶች	O
+ቀሚስ	O
+በ	B-PRICE
+900	I-PRICE
+ብር	I-PRICE
+።	O
+ቦሌ	B-LOCATION
+ሜዳኒያለም	O
+አካባቢ	O
+።	O
+
+# Message ID: sample_014
+# Text: የስልክ ኬዝ 80 ብር። @phonecase_et ላይ ይገናኙ።
+
+የስልክ	O
+ኬዝ	O
+80	B-PRICE
+ብር	I-PRICE
+።	O
+@phonecase_et	B-CONTACT_INFO
+ላይ	O
+ይገናኙ	O
+።	O
+
+# Message ID: sample_015
+# Text: የቤት ዕቃዎች በአዲስ አበባ። ዋጋ 2500 ብር።
+
+የቤት	O
+ዕቃዎች	O
+በአዲስ	O
+አበባ	B-LOCATION
+።	I-LOCATION
+ዋጋ	B-PRICE
+2500	B-PRICE
+ብር	I-PRICE
+።	O
+
+# Message ID: sample_016
+# Text: የሴቶች ሰዓት 1200 ብር። ፒያሳ ማዕከል።
+
+የሴቶች	O
+ሰዓት	O
+1200	B-PRICE
+ብር	I-PRICE
+።	O
+ፒያሳ	B-LOCATION
+ማዕከል	O
+።	O
+
+# Message ID: sample_017
+# Text: የወንዶች ጫማ በ 1100 ብር። ዴሊቨሪ ነፃ።
+
+የወንዶች	O
+ጫማ	O
+በ	B-PRICE
+1100	I-PRICE
+ብር	I-PRICE
+።	O
+ዴሊቨሪ	O
+ነፃ	O
+።	O
+
+# Message ID: sample_018
+# Text: የሕፃናት ልብስ ስብስብ 800 ብር። መርካቶ አካባቢ።
+
+የሕፃናት	O
+ልብስ	O
+ስብስብ	O
+800	B-PRICE
+ብር	I-PRICE
+።	O
+መርካቶ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_019
+# Text: የኮምፒውተር ማውስ 250 ብር። ካዛንቺስ ውስጥ።
+
+የኮምፒውተር	O
+ማውስ	O
+250	B-PRICE
+ብር	I-PRICE
+።	O
+ካዛንቺስ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_020
+# Text: የሴቶች ቦርሳ ስብስብ 1500 ብር። ጎፋ አካባቢ።
+
+የሴቶች	O
+ቦርሳ	O
+ስብስብ	O
+1500	B-PRICE
+ብር	I-PRICE
+።	O
+ጎፋ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_021
+# Text: የወንዶች ቲሸርት 180 ብር። ዴሊቨሪ 25 ብር።
+
+የወንዶች	O
+ቲሸርት	O
+180	B-PRICE
+ብር	I-PRICE
+።	O
+ዴሊቨሪ	O
+25	B-PRICE
+ብር	I-PRICE
+።	O
+
+# Message ID: sample_022
+# Text: የሕፃናት ጫማ በ 350 ብር። ኪርኮስ ውስጥ።
+
+የሕፃናት	O
+ጫማ	O
+በ	B-PRICE
+350	I-PRICE
+ብር	I-PRICE
+።	O
+ኪርኮስ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_023
+# Text: የስልክ ቻርጀር 120 ብር። @accessories_et ላይ።
+
+የስልክ	O
+ቻርጀር	O
+120	B-PRICE
+ብር	I-PRICE
+።	O
+@accessories_et	B-CONTACT_INFO
+ላይ	O
+።	O
+
+# Message ID: sample_024
+# Text: የቤት ማስዋቢያ 450 ብር። ላፍቶ አካባቢ።
+
+የቤት	O
+ማስዋቢያ	O
+450	B-PRICE
+ብር	I-PRICE
+።	O
+ላፍቶ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_025
+# Text: የሴቶች ሸሚዝ ዋጋ 400 ብር። ቦሌ ውስጥ።
+
+የሴቶች	O
+ሸሚዝ	O
+ዋጋ	B-PRICE
+400	B-PRICE
+ብር	I-PRICE
+።	O
+ቦሌ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_026
+# Text: የወንዶች ቀሚስ ሱሪ 1200 ብር። አዲስ አበባ።
+
+የወንዶች	O
+ቀሚስ	O
+ሱሪ	O
+1200	B-PRICE
+ብር	I-PRICE
+።	O
+አዲስ	B-LOCATION
+አበባ	I-LOCATION
+።	O
+
+# Message ID: sample_027
+# Text: የሕፃናት መጫወቻ ስብስብ 600 ብር። ፒያሳ ውስጥ።
+
+የሕፃናት	O
+መጫወቻ	O
+ስብስብ	O
+600	B-PRICE
+ብር	I-PRICE
+።	O
+ፒያሳ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_028
+# Text: የኮምፒውተር ኪቦርድ 800 ብር። መርካቶ አካባቢ።
+
+የኮምፒውተር	O
+ኪቦርድ	O
+800	B-PRICE
+ብር	I-PRICE
+።	O
+መርካቶ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_029
+# Text: የሴቶች ጌጣጌጥ 300 ብር። ዴሊቨሪ 20 ብር።
+
+የሴቶች	O
+ጌጣጌጥ	O
+300	B-PRICE
+ብር	I-PRICE
+።	O
+ዴሊቨሪ	O
+20	B-PRICE
+ብር	I-PRICE
+።	O
+
+# Message ID: sample_030
+# Text: የወንዶች ቦርሳ በ 950 ብር። ካዛንቺስ አካባቢ።
+
+የወንዶች	O
+ቦርሳ	O
+በ	B-PRICE
+950	I-PRICE
+ብር	I-PRICE
+።	O
+ካዛንቺስ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_031
+# Text: የሕፃናት መጽሐፍ 85 ብር። ጎፋ ውስጥ።
+
+የሕፃናት	O
+መጽሐፍ	O
+85	B-PRICE
+ብር	I-PRICE
+።	O
+ጎፋ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_032
+# Text: የስልክ ስክሪን ፕሮቴክተር 45 ብር። ኪርኮስ።
+
+የስልክ	O
+ስክሪን	O
+ፕሮቴክተር	O
+45	B-PRICE
+ብር	I-PRICE
+።	O
+ኪርኮስ	B-LOCATION
+።	O
+
+# Message ID: sample_033
+# Text: የቤት ማጽጃ እቃዎች 280 ብር። ላፍቶ አካባቢ።
+
+የቤት	O
+ማጽጃ	O
+እቃዎች	O
+280	B-PRICE
+ብር	I-PRICE
+።	O
+ላፍቶ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_034
+# Text: የሴቶች ሱሪ ዋጋ 520 ብር። ቦሌ ውስጥ።
+
+የሴቶች	O
+ሱሪ	O
+ዋጋ	B-PRICE
+520	B-PRICE
+ብር	I-PRICE
+።	O
+ቦሌ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_035
+# Text: የወንዶች ጃኬት በ 1800 ብር። አዲስ አበባ።
+
+የወንዶች	O
+ጃኬት	O
+በ	B-PRICE
+1800	I-PRICE
+ብር	I-PRICE
+።	O
+አዲስ	B-LOCATION
+አበባ	I-LOCATION
+።	O
+
+# Message ID: sample_036
+# Text: የሕፃናት ሱሪ 120 ብር። ፒያሳ አካባቢ።
+
+የሕፃናት	O
+ሱሪ	O
+120	B-PRICE
+ብር	I-PRICE
+።	O
+ፒያሳ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_037
+# Text: የኮምፒውተር ስፒከር 650 ብር። መርካቶ ውስጥ።
+
+የኮምፒውተር	O
+ስፒከር	O
+650	B-PRICE
+ብር	I-PRICE
+።	O
+መርካቶ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_038
+# Text: የሴቶች ሰንደል 380 ብር። ዴሊቨሪ 35 ብር።
+
+የሴቶች	O
+ሰንደል	O
+380	B-PRICE
+ብር	I-PRICE
+።	O
+ዴሊቨሪ	O
+35	B-PRICE
+ብር	I-PRICE
+።	O
+
+# Message ID: sample_039
+# Text: የወንዶች ሰዓት ዋጋ 2200 ብር። ካዛንቺስ።
+
+የወንዶች	O
+ሰዓት	O
+ዋጋ	B-PRICE
+2200	B-PRICE
+ብር	I-PRICE
+።	O
+ካዛንቺስ	B-LOCATION
+።	O
+
+# Message ID: sample_040
+# Text: የሕፃናት ቀሚስ በ 220 ብር። ጎፋ አካባቢ።
+
+የሕፃናት	O
+ቀሚስ	O
+በ	B-PRICE
+220	I-PRICE
+ብር	I-PRICE
+።	O
+ጎፋ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_041
+# Text: የስልክ ኢርፎን 180 ብር። @audio_et ላይ።
+
+የስልክ	O
+ኢርፎን	O
+180	B-PRICE
+ብር	I-PRICE
+።	O
+@audio_et	B-CONTACT_INFO
+ላይ	O
+።	O
+
+# Message ID: sample_042
+# Text: የቤት ማብሰያ እቃዎች 1100 ብር። ኪርኮስ ውስጥ።
+
+የቤት	O
+ማብሰያ	O
+እቃዎች	O
+1100	B-PRICE
+ብር	I-PRICE
+።	O
+ኪርኮስ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_043
+# Text: የሴቶች ኮት ዋጋ 1600 ብር። ላፍቶ አካባቢ።
+
+የሴቶች	O
+ኮት	O
+ዋጋ	B-PRICE
+1600	B-PRICE
+ብር	I-PRICE
+።	O
+ላፍቶ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_044
+# Text: የወንዶች ሱሪ ስብስብ 1400 ብር። ቦሌ ውስጥ።
+
+የወንዶች	O
+ሱሪ	O
+ስብስብ	O
+1400	B-PRICE
+ብር	I-PRICE
+።	O
+ቦሌ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_045
+# Text: የሕፃናት ጫማ ስብስብ 750 ብር። አዲስ አበባ።
+
+የሕፃናት	O
+ጫማ	O
+ስብስብ	O
+750	B-PRICE
+ብር	I-PRICE
+።	O
+አዲስ	B-LOCATION
+አበባ	I-LOCATION
+።	O
+
+# Message ID: sample_046
+# Text: የኮምፒውተር ካሜራ 950 ብር። ፒያሳ ውስጥ።
+
+የኮምፒውተር	O
+ካሜራ	O
+950	B-PRICE
+ብር	I-PRICE
+።	O
+ፒያሳ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_047
+# Text: የሴቶች ቦርሳ ዋጋ 680 ብር። መርካቶ አካባቢ።
+
+የሴቶች	O
+ቦርሳ	O
+ዋጋ	B-PRICE
+680	B-PRICE
+ብር	I-PRICE
+።	O
+መርካቶ	B-LOCATION
+አካባቢ	O
+።	O
+
+# Message ID: sample_048
+# Text: የወንዶች ቤልት በ 320 ብር። ዴሊቨሪ 15 ብር።
+
+የወንዶች	O
+ቤልት	O
+በ	B-PRICE
+320	I-PRICE
+ብር	I-PRICE
+።	O
+ዴሊቨሪ	O
+15	B-PRICE
+ብር	I-PRICE
+።	O
+
+# Message ID: sample_049
+# Text: የሕፃናት መጫወቻ መኪና 280 ብር። ካዛንቺስ ውስጥ።
+
+የሕፃናት	O
+መጫወቻ	O
+መኪና	O
+280	B-PRICE
+ብር	I-PRICE
+።	O
+ካዛንቺስ	B-LOCATION
+ውስጥ	O
+።	O
+
+# Message ID: sample_050
+# Text: የስልክ ፓወር ባንክ 450 ብር። ጎፋ አካባቢ።
+
+የስልክ	O
+ፓወር	O
+ባንክ	O
+450	B-PRICE
+ብር	I-PRICE
+።	O
+ጎፋ	B-LOCATION
+አካባቢ	O
+።	O
