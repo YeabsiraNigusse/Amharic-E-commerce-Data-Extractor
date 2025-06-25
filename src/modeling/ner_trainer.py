@@ -87,8 +87,8 @@ class AmharicNERTrainer:
             "accuracy": results["overall_accuracy"],
         }
     
-    def train(self, 
-              train_dataset: Dataset, 
+    def train(self,
+              train_dataset: Dataset,
               val_dataset: Dataset,
               learning_rate: float = 2e-5,
               num_epochs: int = 3,
@@ -96,7 +96,7 @@ class AmharicNERTrainer:
               warmup_steps: int = 500,
               weight_decay: float = 0.01,
               save_strategy: str = "epoch",
-              evaluation_strategy: str = "epoch",
+              eval_strategy: str = "epoch",
               early_stopping_patience: int = 3):
         """Train the NER model"""
         
@@ -109,7 +109,7 @@ class AmharicNERTrainer:
             num_train_epochs=num_epochs,
             weight_decay=weight_decay,
             warmup_steps=warmup_steps,
-            evaluation_strategy=evaluation_strategy,
+            eval_strategy=eval_strategy,  # Updated parameter name
             save_strategy=save_strategy,
             load_best_model_at_end=True,
             metric_for_best_model="f1",

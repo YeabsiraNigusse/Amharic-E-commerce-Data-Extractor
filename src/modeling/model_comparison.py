@@ -136,7 +136,7 @@ class ModelComparison:
                 batch_size=batch_size,
                 warmup_steps=min(train_config['warmup_steps'], len(train_dataset) // 4),
                 weight_decay=train_config['weight_decay'],
-                evaluation_strategy="epoch",
+                eval_strategy="epoch",
                 save_strategy="epoch",
                 early_stopping_patience=2
             )
