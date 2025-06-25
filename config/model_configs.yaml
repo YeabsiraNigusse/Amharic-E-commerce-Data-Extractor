@@ -1,0 +1,89 @@
+# Model configurations for NER training
+# Different transformer models suitable for Amharic NER
+
+models:
+  xlm-roberta-base:
+    name: "xlm-roberta-base"
+    description: "XLM-RoBERTa base model - multilingual, good for Amharic"
+    parameters: 270M
+    recommended_batch_size: 16
+    recommended_lr: 2e-5
+    recommended_epochs: 3
+    strengths: ["multilingual", "robust", "good performance"]
+    
+  xlm-roberta-large:
+    name: "xlm-roberta-large"
+    description: "XLM-RoBERTa large model - better performance, more resources"
+    parameters: 550M
+    recommended_batch_size: 8
+    recommended_lr: 1e-5
+    recommended_epochs: 3
+    strengths: ["high performance", "multilingual", "state-of-the-art"]
+    
+  bert-base-multilingual-cased:
+    name: "bert-base-multilingual-cased"
+    description: "Multilingual BERT - classic choice for multilingual NER"
+    parameters: 110M
+    recommended_batch_size: 16
+    recommended_lr: 2e-5
+    recommended_epochs: 4
+    strengths: ["lightweight", "proven", "multilingual"]
+    
+  distilbert-base-multilingual-cased:
+    name: "distilbert-base-multilingual-cased"
+    description: "Distilled BERT - faster and smaller"
+    parameters: 66M
+    recommended_batch_size: 32
+    recommended_lr: 3e-5
+    recommended_epochs: 4
+    strengths: ["fast", "lightweight", "efficient"]
+
+# Training configurations
+training:
+  default:
+    learning_rate: 2e-5
+    num_epochs: 3
+    batch_size: 16
+    warmup_steps: 500
+    weight_decay: 0.01
+    max_length: 512
+    
+  fast_training:
+    learning_rate: 3e-5
+    num_epochs: 2
+    batch_size: 32
+    warmup_steps: 200
+    weight_decay: 0.01
+    max_length: 256
+    
+  high_quality:
+    learning_rate: 1e-5
+    num_epochs: 5
+    batch_size: 8
+    warmup_steps: 1000
+    weight_decay: 0.01
+    max_length: 512
+
+# Evaluation settings
+evaluation:
+  metrics: ["precision", "recall", "f1", "accuracy"]
+  entity_types: ["PRODUCT", "PRICE", "LOCATION", "CONTACT_INFO", "DELIVERY_FEE"]
+  validation_split: 0.2
+  early_stopping_patience: 3
+
+# Hardware requirements
+hardware:
+  minimum:
+    gpu_memory: "4GB"
+    ram: "8GB"
+    recommended_models: ["distilbert-base-multilingual-cased", "bert-base-multilingual-cased"]
+    
+  recommended:
+    gpu_memory: "8GB"
+    ram: "16GB"
+    recommended_models: ["xlm-roberta-base", "bert-base-multilingual-cased"]
+    
+  high_end:
+    gpu_memory: "16GB+"
+    ram: "32GB+"
+    recommended_models: ["xlm-roberta-large", "xlm-roberta-base"]
