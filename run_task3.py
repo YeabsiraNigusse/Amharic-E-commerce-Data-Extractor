@@ -54,7 +54,7 @@ def train_single_model(model_name: str,
         num_epochs=num_epochs,
         batch_size=batch_size,
         warmup_steps=min(500, len(train_dataset) // 4),
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
         save_strategy="epoch",
         early_stopping_patience=2
     )

@@ -3,3 +3,58 @@
 2025-06-23 17:46:17 | INFO | __main__:main:147 | AMHARIC E-COMMERCE DATA EXTRACTOR - TASK 2
 2025-06-23 17:46:17 | INFO | __main__:main:148 | CoNLL Format Labeling
 2025-06-23 17:46:17 | INFO | __main__:main:149 | ============================================================
+2025-06-25 17:40:59 | INFO | src.utils.data_utils:setup_logging:159 | Logging setup completed
+2025-06-25 17:40:59 | INFO | __main__:main:173 | Starting Model Comparison Demo
+2025-06-25 17:40:59 | INFO | __main__:main:174 | This demo shows how the model comparison system works
+2025-06-25 17:40:59 | INFO | __main__:main:175 | with mock data (no actual training required)
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:97 | ============================================================
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:98 | DEMO: Model Comparison System
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:99 | ============================================================
+2025-06-25 17:40:59 | INFO | src.modeling.model_evaluator:__init__:35 | Initialized model evaluator, output dir: demo_results
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:109 | Creating mock model evaluation results...
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:113 | 
+📊 INDIVIDUAL MODEL RESULTS:
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:114 | --------------------------------------------------------------------------------
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:116 | Model: xlm-roberta-base
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:117 |   F1 Score: 0.6637
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:118 |   Precision: 0.6338
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:119 |   Recall: 0.6832
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:120 |   Inference Time: 0.6897s
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:121 |   Parameters: 270,000,000
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:122 | 
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:116 | Model: bert-base-multilingual-cased
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:117 |   F1 Score: 0.6777
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:118 |   Precision: 0.6406
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:119 |   Recall: 0.7177
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:120 |   Inference Time: 0.5430s
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:121 |   Parameters: 110,000,000
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:122 | 
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:116 | Model: distilbert-base-multilingual-cased
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:117 |   F1 Score: 0.7012
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:118 |   Precision: 0.7081
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:119 |   Recall: 0.7088
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:120 |   Inference Time: 0.2771s
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:121 |   Parameters: 66,000,000
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:122 | 
+2025-06-25 17:40:59 | INFO | __main__:demo_model_comparison:125 | Generating comparison report...
+2025-06-25 17:40:59 | INFO | src.modeling.model_evaluator:compare_models:218 | Model comparison saved to demo_results/model_comparison.csv
+2025-06-25 17:41:00 | INFO | src.modeling.model_evaluator:_create_comparison_plots:297 | Comparison plots saved to demo_results/model_comparison_plots.png
+2025-06-25 17:41:00 | INFO | src.modeling.model_evaluator:create_evaluation_report:245 | Evaluation report saved to demo_results/evaluation_report.json
+2025-06-25 17:41:00 | INFO | src.modeling.model_evaluator:compare_models:218 | Model comparison saved to demo_results/model_comparison.csv
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:130 | 
+📋 MODEL COMPARISON TABLE:
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:131 | --------------------------------------------------------------------------------
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:135 | 
+🏆 BEST MODEL SELECTION:
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:136 | ----------------------------------------
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:140 | Best F1 Score: distilbert-base-multilingual-cased (0.7012)
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:144 | Fastest Inference: distilbert-base-multilingual-cased (0.2771s)
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:149 | Most Balanced: distilbert-base-multilingual-cased (ratio: 0.5491)
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:161 | 
+💾 Results saved to: demo_results/demo_comparison_results.json
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:162 | 📊 Plots saved to: demo_results/model_comparison_plots.png
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:163 | 📋 CSV saved to: demo_results/model_comparison.csv
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:165 | 
+✅ Demo completed successfully!
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:166 | This demonstrates the model comparison functionality.
+2025-06-25 17:41:00 | INFO | __main__:demo_model_comparison:167 | In actual usage, these would be real trained model results.
