@@ -1,0 +1,145 @@
+[
+  {
+    "channel_name": "Bole Fashion Store",
+    "channel_username": "@bolefashion",
+    "text": "የሴቶች ልብስ ዋጋ 800 ብር ነው። በቦሌ አካባቢ ይገኛል። ጥራት ያለው ልብስ።",
+    "views": 250,
+    "forwards": 15,
+    "replies": 8,
+    "date": "2024-01-15T10:00:00",
+    "has_media": true,
+    "message_id": 1001
+  },
+  {
+    "channel_name": "Bole Fashion Store",
+    "channel_username": "@bolefashion",
+    "text": "የወንዶች ሸሚዝ 600 ብር። ዘመናዊ ዲዛይን። ቦሌ አካባቢ።",
+    "views": 180,
+    "forwards": 12,
+    "replies": 5,
+    "date": "2024-01-16T14:30:00",
+    "has_media": true,
+    "message_id": 1002
+  },
+  {
+    "channel_name": "Bole Fashion Store",
+    "channel_username": "@bolefashion",
+    "text": "ሴቶች ጫማ 1200 ብር። ከውጭ የመጣ። በቦሌ አካባቢ ይገኛል።",
+    "views": 320,
+    "forwards": 25,
+    "replies": 12,
+    "date": "2024-01-17T09:15:00",
+    "has_media": true,
+    "message_id": 1003
+  },
+  {
+    "channel_name": "Bole Fashion Store",
+    "channel_username": "@bolefashion",
+    "text": "የሕፃናት ልብስ 400 ብር። ለ2-5 ዓመት ልጆች። ቦሌ አካባቢ።",
+    "views": 150,
+    "forwards": 8,
+    "replies": 3,
+    "date": "2024-01-18T16:45:00",
+    "has_media": false,
+    "message_id": 1004
+  },
+  {
+    "channel_name": "Merkato Electronics",
+    "channel_username": "@merkatotech",
+    "text": "የስልክ ፓወር ባንክ 450 ብር። መርካቶ አካባቢ ይገኛል።",
+    "views": 120,
+    "forwards": 5,
+    "replies": 2,
+    "date": "2024-01-15T11:30:00",
+    "has_media": false,
+    "message_id": 2001
+  },
+  {
+    "channel_name": "Merkato Electronics",
+    "channel_username": "@merkatotech",
+    "text": "ስልክ ጆሮ ማዳመጫ 200 ብር። ጥራት ያለው። መርካቶ።",
+    "views": 80,
+    "forwards": 3,
+    "replies": 1,
+    "date": "2024-01-17T13:20:00",
+    "has_media": false,
+    "message_id": 2002
+  },
+  {
+    "channel_name": "Merkato Electronics",
+    "channel_username": "@merkatotech",
+    "text": "ስልክ ኬዝ 150 ብር። የተለያዩ ዓይነት። መርካቶ አካባቢ።",
+    "views": 95,
+    "forwards": 4,
+    "replies": 0,
+    "date": "2024-01-19T10:10:00",
+    "has_media": true,
+    "message_id": 2003
+  },
+  {
+    "channel_name": "Piassa Books",
+    "channel_username": "@piassabooks",
+    "text": "መጽሐፍ 300 ብር። ፒያሳ አካባቢ።",
+    "views": 45,
+    "forwards": 1,
+    "replies": 0,
+    "date": "2024-01-16T15:00:00",
+    "has_media": false,
+    "message_id": 3001
+  },
+  {
+    "channel_name": "Piassa Books",
+    "channel_username": "@piassabooks",
+    "text": "ትምህርታዊ መጽሐፍ 250 ብር። ፒያሳ።",
+    "views": 30,
+    "forwards": 0,
+    "replies": 1,
+    "date": "2024-01-20T12:30:00",
+    "has_media": false,
+    "message_id": 3002
+  },
+  {
+    "channel_name": "Shiro Meda Cosmetics",
+    "channel_username": "@shiromedacosmetics",
+    "text": "የሴቶች ሜክአፕ 500 ብር። ከውጭ የመጣ። ሽሮ መዳ አካባቢ።",
+    "views": 200,
+    "forwards": 18,
+    "replies": 10,
+    "date": "2024-01-15T08:00:00",
+    "has_media": true,
+    "message_id": 4001
+  },
+  {
+    "channel_name": "Shiro Meda Cosmetics",
+    "channel_username": "@shiromedacosmetics",
+    "text": "ሻምፖ 350 ብር። ለሁሉም የፀጉር ዓይነት። ሽሮ መዳ።",
+    "views": 160,
+    "forwards": 12,
+    "replies": 6,
+    "date": "2024-01-16T19:30:00",
+    "has_media": true,
+    "message_id": 4002
+  },
+  {
+    "channel_name": "Shiro Meda Cosmetics",
+    "channel_username": "@shiromedacosmetics",
+    "text": "የፊት ክሬም 400 ብር። ለደረቅ ቆዳ። ሽሮ መዳ አካባቢ ይገኛል።",
+    "views": 180,
+    "forwards": 15,
+    "replies": 8,
+    "date": "2024-01-18T07:45:00",
+    "has_media": false,
+    "message_id": 4003
+  },
+  {
+    "channel_name": "Shiro Meda Cosmetics",
+    "channel_username": "@shiromedacosmetics",
+    "text": "ሊፕስቲክ 250 ብር። የተለያዩ ቀለም። ሽሮ መዳ።",
+    "views": 140,
+    "forwards": 10,
+    "replies": 4,
+    "date": "2024-01-19T20:15:00",
+    "has_media": true,
+    "message_id": 4004
+  }
+]

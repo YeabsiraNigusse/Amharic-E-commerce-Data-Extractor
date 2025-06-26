@@ -1,0 +1,2466 @@
+{
+  "feature_importance": {
+    "B-CONTACT_INFO": {
+      "top_positive": [
+        [
+          "length",
+          1.5858005913284483
+        ],
+        [
+          "o",
+          0.09792906820837638
+        ],
+        [
+          "io",
+          0.08934243244414893
+        ],
+        [
+          "i",
+          0.08501083865134018
+        ],
+        [
+          " @",
+          0.0812218053143133
+        ],
+        [
+          "@",
+          0.0812218053143133
+        ],
+        [
+          "et",
+          0.07841083598047456
+        ],
+        [
+          "t",
+          0.07841083598047456
+        ],
+        [
+          "e",
+          0.07741234985671457
+        ],
+        [
+          "au",
+          0.07588296816652473
+        ]
+      ],
+      "top_negative": [
+        [
+          "ተር",
+          -0.07255139593235194
+        ],
+        [
+          "ተ",
+          -0.07255139593235194
+        ],
+        [
+          "ም",
+          -0.0723382484585049
+        ],
+        [
+          "ውተ",
+          -0.07179704977359921
+        ],
+        [
+          "ኮም",
+          -0.07179704977359921
+        ],
+        [
+          "ፒው",
+          -0.07179704977359921
+        ],
+        [
+          "ምፒ",
+          -0.07179704977359921
+        ],
+        [
+          "የኮ",
+          -0.07179704977359921
+        ],
+        [
+          "ኮ",
+          -0.06450571029829308
+        ],
+        [
+          "ፒ",
+          -0.06323934908716104
+        ]
+      ]
+    },
+    "B-LOCATION": {
+      "top_positive": [
+        [
+          "has_location_words",
+          1.8586265771007349
+        ],
+        [
+          "ስ ",
+          1.7011137465449608
+        ],
+        [
+          " ጎ",
+          1.0394664315626776
+        ],
+        [
+          "ቶ ",
+          1.0121115222714099
+        ],
+        [
+          "ፋ",
+          0.9284437588651626
+        ],
+        [
+          "ጎፋ",
+          0.9284437588651626
+        ],
+        [
+          "ጎ",
+          0.9284437588651626
+        ],
+        [
+          "ፋ ",
+          0.9284437588651626
+        ],
+        [
+          "ዲ",
+          0.9058369176773002
+        ],
+        [
+          "ዲስ",
+          0.9058369176773002
+        ]
+      ],
+      "top_negative": [
+        [
+          "has_digits",
+          -1.1065090613036692
+        ],
+        [
+          "has_currency",
+          -0.9055717791919208
+        ],
+        [
+          " በ",
+          -0.6726541643216029
+        ],
+        [
+          " ።",
+          -0.6166627907085775
+        ],
+        [
+          "።",
+          -0.6166627907085775
+        ],
+        [
+          "። ",
+          -0.6166627907085775
+        ],
+        [
+          "ቢ",
+          -0.6144565045397523
+        ],
+        [
+          "ካባ",
+          -0.6068419946110998
+        ],
+        [
+          "ቢ ",
+          -0.6068419946110998
+        ],
+        [
+          "ባቢ",
+          -0.6068419946110998
+        ]
+      ]
+    },
+    "B-PRICE": {
+      "top_positive": [
+        [
+          "has_digits",
+          3.3210597705140317
+        ],
+        [
+          "በ ",
+          1.4970876578733636
+        ],
+        [
+          " ዋ",
+          1.3907944740767413
+        ],
+        [
+          "ጋ ",
+          1.3907944740767413
+        ],
+        [
+          "ዋጋ",
+          1.3907944740767413
+        ],
+        [
+          "ጋ",
+          1.3907944740767413
+        ],
+        [
+          "ዋ",
+          1.3642321633066599
+        ],
+        [
+          " በ",
+          1.3124343425000415
+        ],
+        [
+          "በ",
+          1.1422822731792974
+        ],
+        [
+          "0",
+          1.047008644846647
+        ]
+      ],
+      "top_negative": [
+        [
+          "።",
+          -1.4238485576554714
+        ],
+        [
+          "። ",
+          -1.4238485576554714
+        ],
+        [
+          " ።",
+          -1.4238485576554714
+        ],
+        [
+          "length",
+          -0.9073593575800447
+        ],
+        [
+          "ብ",
+          -0.5718428634111768
+        ],
+        [
+          "ር",
+          -0.561745643326524
+        ],
+        [
+          " ብ",
+          -0.5548265638771113
+        ],
+        [
+          "ብር",
+          -0.5533317962274832
+        ],
+        [
+          "ር ",
+          -0.5450246344805549
+        ],
+        [
+          "has_location_words",
+          -0.5437962477346985
+        ]
+      ]
+    },
+    "I-LOCATION": {
+      "top_positive": [
+        [
+          "አበ",
+          1.3648913768016102
+        ],
+        [
+          "በባ",
+          1.3648913768016102
+        ],
+        [
+          "ባ ",
+          1.3648913768016102
+        ],
+        [
+          "በ",
+          0.9472269484591486
+        ],
+        [
+          "ባ",
+          0.9451007338922444
+        ],
+        [
+          " አ",
+          0.8867748629508309
+        ],
+        [
+          "አ",
+          0.8746150077793561
+        ],
+        [
+          "ac",
+          -0.00043933317989233435
+        ],
+        [
+          "ce",
+          -0.00043933317989233435
+        ],
+        [
+          "cc",
+          -0.00043933317989233435
+        ]
+      ],
+      "top_negative": [
+        [
+          "has_digits",
+          -0.3641274565936237
+        ],
+        [
+          "has_currency",
+          -0.3428950116103736
+        ],
+        [
+          "has_location_words",
+          -0.32771370494108043
+        ],
+        [
+          "ር",
+          -0.16947921225486845
+        ],
+        [
+          "ብ",
+          -0.16322501562233702
+        ],
+        [
+          "ር ",
+          -0.15356468672451296
+        ],
+        [
+          "ብር",
+          -0.14846620691231283
+        ],
+        [
+          " ብ",
+          -0.14802749114305394
+        ],
+        [
+          "0",
+          -0.12236373558545975
+        ],
+        [
+          "ስ",
+          -0.12005190785291171
+        ]
+      ]
+    },
+    "I-PRICE": {
+      "top_positive": [
+        [
+          "has_currency",
+          2.889888434096369
+        ],
+        [
+          " ብ",
+          1.608140732096151
+        ],
+        [
+          "ብር",
+          1.5006378849426965
+        ],
+        [
+          "ር ",
+          1.377676423452581
+        ],
+        [
+          "ብ",
+          1.3677583980652113
+        ],
+        [
+          "has_digits",
+          1.3230329807930628
+        ],
+        [
+          "ር",
+          1.194147579466435
+        ],
+        [
+          "ነው",
+          1.0354147335946908
+        ],
+        [
+          "ው ",
+          1.0354147335946908
+        ],
+        [
+          " ነ",
+          0.8632721740376467
+        ]
+      ],
+      "top_negative": [
+        [
+          "።",
+          -0.7745567897275362
+        ],
+        [
+          "። ",
+          -0.7745567897275362
+        ],
+        [
+          " ።",
+          -0.7745567897275362
+        ],
+        [
+          "has_location_words",
+          -0.4215825687225678
+        ],
+        [
+          "length",
+          -0.28607674259378507
+        ],
+        [
+          "30",
+          -0.28441095176566483
+        ],
+        [
+          "ስ",
+          -0.2786627934020459
+        ],
+        [
+          "5 ",
+          -0.2712690284321559
+        ],
+        [
+          "4",
+          -0.26498862192317263
+        ],
+        [
+          "6",
+          -0.24730839997908957
+        ]
+      ]
+    },
+    "O": {
+      "top_positive": [
+        [
+          " ።",
+          1.279532612079116
+        ],
+        [
+          "። ",
+          1.279532612079116
+        ],
+        [
+          "።",
+          1.279532612079116
+        ],
+        [
+          " የ",
+          0.9841210571836453
+        ],
+        [
+          "የ",
+          0.9841210571836453
+        ],
+        [
+          "ቢ",
+          0.8021893337084245
+        ],
+        [
+          "አካ",
+          0.7666388874624739
+        ],
+        [
+          "ቢ ",
+          0.7666388874624739
+        ],
+        [
+          "ባቢ",
+          0.7666388874624739
+        ],
+        [
+          "ካባ",
+          0.7666388874624739
+        ]
+      ],
+      "top_negative": [
+        [
+          "has_digits",
+          -3.001405074488099
+        ],
+        [
+          "has_currency",
+          -2.0842725057933222
+        ],
+        [
+          "በ ",
+          -1.5548242668676928
+        ],
+        [
+          " ብ",
+          -1.2117958967955706
+        ],
+        [
+          "በ",
+          -1.0961956763417389
+        ],
+        [
+          "ብር",
+          -1.0401858553530319
+        ],
+        [
+          "ጋ ",
+          -1.0310822852262542
+        ],
+        [
+          "ጋ",
+          -1.0310822852262542
+        ],
+        [
+          " ዋ",
+          -1.0310822852262542
+        ],
+        [
+          "ዋጋ",
+          -1.0310822852262542
+        ]
+      ]
+    }
+  },
+  "explanations": [
+    {
+      "text": "የሕፃናት ልብስ ዋጋ 500 ብር ነው። በቦሌ አካባቢ ይገኛል።",
+      "predictions": [
+        [
+          "የሕፃናት",
+          "O"
+        ],
+        [
+          "ልብስ",
+          "O"
+        ],
+        [
+          "ዋጋ",
+          "B-PRICE"
+        ],
+        [
+          "500",
+          "B-PRICE"
+        ],
+        [
+          "ብር",
+          "I-PRICE"
+        ],
+        [
+          "ነው።",
+          "O"
+        ],
+        [
+          "በቦሌ",
+          "B-CONTACT_INFO"
+        ],
+        [
+          "አካባቢ",
+          "O"
+        ],
+        [
+          "ይገኛል።",
+          "O"
+        ]
+      ],
+      "explanation": [
+        {
+          "token": "የሕፃናት",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "ልብስ",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "ዋጋ",
+          "label": "B-PRICE",
+          "reasons": [
+            "Currency word present in context",
+            "Price keyword (ዋጋ) present in context"
+          ]
+        },
+        {
+          "token": "500",
+          "label": "B-PRICE",
+          "reasons": [
+            "Contains digits (strong price indicator)",
+            "Currency word present in context",
+            "Price keyword (ዋጋ) present in context"
+          ]
+        },
+        {
+          "token": "ብር",
+          "label": "I-PRICE",
+          "reasons": [
+            "Currency word present in context",
+            "Price keyword (ዋጋ) present in context"
+          ]
+        },
+        {
+          "token": "ነው።",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "በቦሌ",
+          "label": "B-CONTACT_INFO",
+          "reasons": [
+            "Classified based on context and learned patterns"
+          ]
+        },
+        {
+          "token": "አካባቢ",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "ይገኛል።",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ሴቶች ጫማ 800 ብር። መርካቶ አካባቢ።",
+      "predictions": [
+        [
+          "ሴቶች",
+          "O"
+        ],
+        [
+          "ጫማ",
+          "O"
+        ],
+        [
+          "800",
+          "B-PRICE"
+        ],
+        [
+          "ብር።",
+          "I-PRICE"
+        ],
+        [
+          "መርካቶ",
+          "B-LOCATION"
+        ],
+        [
+          "አካባቢ።",
+          "O"
+        ]
+      ],
+      "explanation": [
+        {
+          "token": "ሴቶች",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "ጫማ",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "800",
+          "label": "B-PRICE",
+          "reasons": [
+            "Contains digits (strong price indicator)",
+            "Currency word present in context"
+          ]
+        },
+        {
+          "token": "ብር።",
+          "label": "I-PRICE",
+          "reasons": [
+            "Currency word present in context"
+          ]
+        },
+        {
+          "token": "መርካቶ",
+          "label": "B-LOCATION",
+          "reasons": [
+            "Location keywords present",
+            "Area indicator (አካባቢ) present"
+          ]
+        },
+        {
+          "token": "አካባቢ።",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "የስልክ ፓወር ባንክ 450 ብር። ጎፋ አካባቢ።",
+      "predictions": [
+        [
+          "የስልክ",
+          "O"
+        ],
+        [
+          "ፓወር",
+          "O"
+        ],
+        [
+          "ባንክ",
+          "O"
+        ],
+        [
+          "450",
+          "B-PRICE"
+        ],
+        [
+          "ብር።",
+          "I-PRICE"
+        ],
+        [
+          "ጎፋ",
+          "B-CONTACT_INFO"
+        ],
+        [
+          "አካባቢ።",
+          "O"
+        ]
+      ],
+      "explanation": [
+        {
+          "token": "የስልክ",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "ፓወር",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "ባንክ",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "450",
+          "label": "B-PRICE",
+          "reasons": [
+            "Contains digits (strong price indicator)",
+            "Currency word present in context"
+          ]
+        },
+        {
+          "token": "ብር።",
+          "label": "I-PRICE",
+          "reasons": [
+            "Currency word present in context"
+          ]
+        },
+        {
+          "token": "ጎፋ",
+          "label": "B-CONTACT_INFO",
+          "reasons": [
+            "Classified based on context and learned patterns"
+          ]
+        },
+        {
+          "token": "አካባቢ።",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "መጽሐፍ 200 ብር። ፒያሳ አካባቢ ይገኛል።",
+      "predictions": [
+        [
+          "መጽሐፍ",
+          "O"
+        ],
+        [
+          "200",
+          "B-PRICE"
+        ],
+        [
+          "ብር።",
+          "I-PRICE"
+        ],
+        [
+          "ፒያሳ",
+          "B-LOCATION"
+        ],
+        [
+          "አካባቢ",
+          "O"
+        ],
+        [
+          "ይገኛል።",
+          "O"
+        ]
+      ],
+      "explanation": [
+        {
+          "token": "መጽሐፍ",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "200",
+          "label": "B-PRICE",
+          "reasons": [
+            "Contains digits (strong price indicator)",
+            "Currency word present in context"
+          ]
+        },
+        {
+          "token": "ብር።",
+          "label": "I-PRICE",
+          "reasons": [
+            "Currency word present in context"
+          ]
+        },
+        {
+          "token": "ፒያሳ",
+          "label": "B-LOCATION",
+          "reasons": [
+            "Location keywords present",
+            "Area indicator (አካባቢ) present"
+          ]
+        },
+        {
+          "token": "አካባቢ",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        },
+        {
+          "token": "ይገኛል።",
+          "label": "O",
+          "reasons": [
+            "No strong entity indicators found"
+          ]
+        }
+      ]
+    }
+  ],
+  "difficult_cases": [
+    {
+      "text": "የሕፃናት ልብስ ዋጋ 500 ብር ነው። በቦሌ አካባቢ ይገኛል።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "ነው",
+          "true_label": "I-PRICE",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "አካባቢ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "I-PRICE",
+        "O",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-CONTACT_INFO",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "text": "ስልክ ቁጥር 0911234567 ላይ ይደውሉ። አዲስ አበባ ውስጥ ነን።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "አዲስ",
+          "true_label": "B-LOCATION",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "አበባ",
+          "true_label": "I-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-CONTACT_INFO",
+        "O",
+        "O",
+        "O",
+        "B-LOCATION",
+        "I-LOCATION",
+        "O"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-CONTACT_INFO",
+        "O",
+        "O",
+        "B-CONTACT_INFO",
+        "B-CONTACT_INFO",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "text": "የሴቶች ጫማ በ 800 ብር። ፒያሳ አካባቢ ይገኛል።",
+      "accuracy": 0.625,
+      "error_analysis": [
+        {
+          "token": "800",
+          "true_label": "I-PRICE",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-LOCATION",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ፒያሳ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION",
+        "O"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "B-LOCATION",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "text": "የቤት እቃዎች በመርካቶ። ዋጋ 1500 ብር ነው።",
+      "accuracy": 0.42857142857142855,
+      "error_analysis": [
+        {
+          "token": "በመርካቶ",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "B-LOCATION",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "1500",
+          "true_label": "B-PRICE",
+          "pred_label": "I-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ብር",
+          "true_label": "I-PRICE",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "O",
+        "B-LOCATION",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-CONTACT_INFO",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "O"
+      ]
+    },
+    {
+      "text": "ስማርት ፎን ETB 15000። ካዛንቺስ አካባቢ።",
+      "accuracy": 0.3333333333333333,
+      "error_analysis": [
+        {
+          "token": "ETB",
+          "true_label": "B-PRICE",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "15000",
+          "true_label": "I-PRICE",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-LOCATION",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ካዛንቺስ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-CONTACT_INFO",
+        "B-CONTACT_INFO",
+        "B-LOCATION",
+        "O"
+      ]
+    },
+    {
+      "text": "የመጽሐፍ መደብር በጎፋ። ዋጋ 200 ብር ነው።",
+      "accuracy": 0.42857142857142855,
+      "error_analysis": [
+        {
+          "token": "መደብር",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "B-LOCATION",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "200",
+          "true_label": "B-PRICE",
+          "pred_label": "I-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ብር",
+          "true_label": "I-PRICE",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "O",
+        "B-LOCATION",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE"
+      ],
+      "pred_labels": [
+        "O",
+        "B-CONTACT_INFO",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "O"
+      ]
+    },
+    {
+      "text": "የኮምፒውተር አክሰሰሪዎች በ 1200 ብር። ኪርኮስ አካባቢ።",
+      "accuracy": 0.5714285714285714,
+      "error_analysis": [
+        {
+          "token": "1200",
+          "true_label": "I-PRICE",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ኪርኮስ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "B-CONTACT_INFO",
+        "O"
+      ]
+    },
+    {
+      "text": "የሴቶች ቀሚስ በ 900 ብር። ቦሌ ሜዳኒያለም አካባቢ።",
+      "accuracy": 0.625,
+      "error_analysis": [
+        {
+          "token": "900",
+          "true_label": "I-PRICE",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-LOCATION",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ቦሌ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION",
+        "O"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "B-LOCATION",
+        "O",
+        "O"
+      ]
+    },
+    {
+      "text": "የቤት ዕቃዎች በአዲስ አበባ። ዋጋ 2500 ብር።",
+      "accuracy": 0.42857142857142855,
+      "error_analysis": [
+        {
+          "token": "በአዲስ",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "አበባ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "I-LOCATION",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "2500",
+          "true_label": "B-PRICE",
+          "pred_label": "I-PRICE",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "O",
+        "B-LOCATION",
+        "I-LOCATION",
+        "B-PRICE",
+        "B-PRICE"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-CONTACT_INFO",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE"
+      ]
+    },
+    {
+      "text": "የሴቶች ሰዓት 1200 ብር። ፒያሳ ማዕከል።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-LOCATION",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ፒያሳ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "B-LOCATION",
+        "O"
+      ]
+    },
+    {
+      "text": "የኮምፒውተር ማውስ 250 ብር። ካዛንቺስ ውስጥ።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-LOCATION",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ካዛንቺስ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "B-LOCATION",
+        "O"
+      ]
+    },
+    {
+      "text": "የሕፃናት ጫማ በ 350 ብር። ኪርኮስ ውስጥ።",
+      "accuracy": 0.5714285714285714,
+      "error_analysis": [
+        {
+          "token": "350",
+          "true_label": "I-PRICE",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ኪርኮስ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "B-CONTACT_INFO",
+        "O"
+      ]
+    },
+    {
+      "text": "የስልክ ቻርጀር 120 ብር። @accessories_et ላይ።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "@accessories_et",
+          "true_label": "B-CONTACT_INFO",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-CONTACT_INFO"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "B-CONTACT_INFO",
+        "O"
+      ]
+    },
+    {
+      "text": "የኮምፒውተር ኪቦርድ 800 ብር። መርካቶ አካባቢ።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-LOCATION",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "መርካቶ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "B-LOCATION",
+        "O"
+      ]
+    },
+    {
+      "text": "የወንዶች ቦርሳ በ 950 ብር። ካዛንቺስ አካባቢ።",
+      "accuracy": 0.5714285714285714,
+      "error_analysis": [
+        {
+          "token": "950",
+          "true_label": "I-PRICE",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-LOCATION",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ካዛንቺስ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "B-LOCATION",
+        "O"
+      ]
+    },
+    {
+      "text": "የሕፃናት መጽሐፍ 85 ብር። ጎፋ ውስጥ።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ጎፋ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "B-CONTACT_INFO",
+        "O"
+      ]
+    },
+    {
+      "text": "የወንዶች ጃኬት በ 1800 ብር። አዲስ አበባ።",
+      "accuracy": 0.5714285714285714,
+      "error_analysis": [
+        {
+          "token": "1800",
+          "true_label": "I-PRICE",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "አዲስ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "B-CONTACT_INFO",
+        "O"
+      ]
+    },
+    {
+      "text": "የሕፃናት ሱሪ 120 ብር። ፒያሳ አካባቢ።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-LOCATION",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ፒያሳ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "B-LOCATION",
+        "O"
+      ]
+    },
+    {
+      "text": "የኮምፒውተር ስፒከር 650 ብር። መርካቶ ውስጥ።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-LOCATION",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "መርካቶ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "B-LOCATION",
+        "O"
+      ]
+    },
+    {
+      "text": "የሕፃናት ቀሚስ በ 220 ብር። ጎፋ አካባቢ።",
+      "accuracy": 0.5714285714285714,
+      "error_analysis": [
+        {
+          "token": "220",
+          "true_label": "I-PRICE",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ጎፋ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "B-CONTACT_INFO",
+        "O"
+      ]
+    },
+    {
+      "text": "የስልክ ኢርፎን 180 ብር። @audio_et ላይ።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-CONTACT_INFO",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "@audio_et",
+          "true_label": "B-CONTACT_INFO",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-CONTACT_INFO"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "B-CONTACT_INFO",
+        "O"
+      ]
+    },
+    {
+      "text": "የኮምፒውተር ካሜራ 950 ብር። ፒያሳ ውስጥ።",
+      "accuracy": 0.6666666666666666,
+      "error_analysis": [
+        {
+          "token": "።",
+          "true_label": "O",
+          "pred_label": "B-LOCATION",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ፒያሳ",
+          "true_label": "B-LOCATION",
+          "pred_label": "O",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-LOCATION"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "B-LOCATION",
+        "O"
+      ]
+    },
+    {
+      "text": "የወንዶች ቤልት በ 320 ብር። ዴሊቨሪ 15 ብር።",
+      "accuracy": 0.625,
+      "error_analysis": [
+        {
+          "token": "320",
+          "true_label": "I-PRICE",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "ዴሊቨሪ",
+          "true_label": "O",
+          "pred_label": "B-PRICE",
+          "error_type": "wrong_classification"
+        },
+        {
+          "token": "15",
+          "true_label": "B-PRICE",
+          "pred_label": "I-PRICE",
+          "error_type": "wrong_classification"
+        }
+      ],
+      "true_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "I-PRICE",
+        "I-PRICE",
+        "O",
+        "O",
+        "B-PRICE"
+      ],
+      "pred_labels": [
+        "O",
+        "O",
+        "B-PRICE",
+        "B-PRICE",
+        "I-PRICE",
+        "O",
+        "B-PRICE",
+        "I-PRICE"
+      ]
+    }
+  ],
+  "insights": {
+    "model_behavior": {
+      "price_detection": {
+        "key_indicators": [
+          "digits",
+          "currency_words",
+          "price_keywords"
+        ],
+        "strength": "Strong performance on explicit price mentions",
+        "weakness": "May struggle with implicit price references"
+      },
+      "location_detection": {
+        "key_indicators": [
+          "location_names",
+          "area_keywords"
+        ],
+        "strength": "Good detection of known location names",
+        "weakness": "Limited to predefined location patterns"
+      },
+      "contact_detection": {
+        "key_indicators": [
+          "phone_patterns",
+          "digit_sequences"
+        ],
+        "strength": "Effective for standard phone formats",
+        "weakness": "May miss non-standard contact formats"
+      }
+    },
+    "feature_analysis": {
+      "B-CONTACT_INFO": {
+        "top_positive": [
+          [
+            "length",
+            1.5858005913284483
+          ],
+          [
+            "o",
+            0.09792906820837638
+          ],
+          [
+            "io",
+            0.08934243244414893
+          ],
+          [
+            "i",
+            0.08501083865134018
+          ],
+          [
+            " @",
+            0.0812218053143133
+          ],
+          [
+            "@",
+            0.0812218053143133
+          ],
+          [
+            "et",
+            0.07841083598047456
+          ],
+          [
+            "t",
+            0.07841083598047456
+          ],
+          [
+            "e",
+            0.07741234985671457
+          ],
+          [
+            "au",
+            0.07588296816652473
+          ]
+        ],
+        "top_negative": [
+          [
+            "ተር",
+            -0.07255139593235194
+          ],
+          [
+            "ተ",
+            -0.07255139593235194
+          ],
+          [
+            "ም",
+            -0.0723382484585049
+          ],
+          [
+            "ውተ",
+            -0.07179704977359921
+          ],
+          [
+            "ኮም",
+            -0.07179704977359921
+          ],
+          [
+            "ፒው",
+            -0.07179704977359921
+          ],
+          [
+            "ምፒ",
+            -0.07179704977359921
+          ],
+          [
+            "የኮ",
+            -0.07179704977359921
+          ],
+          [
+            "ኮ",
+            -0.06450571029829308
+          ],
+          [
+            "ፒ",
+            -0.06323934908716104
+          ]
+        ]
+      },
+      "B-LOCATION": {
+        "top_positive": [
+          [
+            "has_location_words",
+            1.8586265771007349
+          ],
+          [
+            "ስ ",
+            1.7011137465449608
+          ],
+          [
+            " ጎ",
+            1.0394664315626776
+          ],
+          [
+            "ቶ ",
+            1.0121115222714099
+          ],
+          [
+            "ፋ",
+            0.9284437588651626
+          ],
+          [
+            "ጎፋ",
+            0.9284437588651626
+          ],
+          [
+            "ጎ",
+            0.9284437588651626
+          ],
+          [
+            "ፋ ",
+            0.9284437588651626
+          ],
+          [
+            "ዲ",
+            0.9058369176773002
+          ],
+          [
+            "ዲስ",
+            0.9058369176773002
+          ]
+        ],
+        "top_negative": [
+          [
+            "has_digits",
+            -1.1065090613036692
+          ],
+          [
+            "has_currency",
+            -0.9055717791919208
+          ],
+          [
+            " በ",
+            -0.6726541643216029
+          ],
+          [
+            " ።",
+            -0.6166627907085775
+          ],
+          [
+            "።",
+            -0.6166627907085775
+          ],
+          [
+            "። ",
+            -0.6166627907085775
+          ],
+          [
+            "ቢ",
+            -0.6144565045397523
+          ],
+          [
+            "ካባ",
+            -0.6068419946110998
+          ],
+          [
+            "ቢ ",
+            -0.6068419946110998
+          ],
+          [
+            "ባቢ",
+            -0.6068419946110998
+          ]
+        ]
+      },
+      "B-PRICE": {
+        "top_positive": [
+          [
+            "has_digits",
+            3.3210597705140317
+          ],
+          [
+            "በ ",
+            1.4970876578733636
+          ],
+          [
+            " ዋ",
+            1.3907944740767413
+          ],
+          [
+            "ጋ ",
+            1.3907944740767413
+          ],
+          [
+            "ዋጋ",
+            1.3907944740767413
+          ],
+          [
+            "ጋ",
+            1.3907944740767413
+          ],
+          [
+            "ዋ",
+            1.3642321633066599
+          ],
+          [
+            " በ",
+            1.3124343425000415
+          ],
+          [
+            "በ",
+            1.1422822731792974
+          ],
+          [
+            "0",
+            1.047008644846647
+          ]
+        ],
+        "top_negative": [
+          [
+            "።",
+            -1.4238485576554714
+          ],
+          [
+            "። ",
+            -1.4238485576554714
+          ],
+          [
+            " ።",
+            -1.4238485576554714
+          ],
+          [
+            "length",
+            -0.9073593575800447
+          ],
+          [
+            "ብ",
+            -0.5718428634111768
+          ],
+          [
+            "ር",
+            -0.561745643326524
+          ],
+          [
+            " ብ",
+            -0.5548265638771113
+          ],
+          [
+            "ብር",
+            -0.5533317962274832
+          ],
+          [
+            "ር ",
+            -0.5450246344805549
+          ],
+          [
+            "has_location_words",
+            -0.5437962477346985
+          ]
+        ]
+      },
+      "I-LOCATION": {
+        "top_positive": [
+          [
+            "አበ",
+            1.3648913768016102
+          ],
+          [
+            "በባ",
+            1.3648913768016102
+          ],
+          [
+            "ባ ",
+            1.3648913768016102
+          ],
+          [
+            "በ",
+            0.9472269484591486
+          ],
+          [
+            "ባ",
+            0.9451007338922444
+          ],
+          [
+            " አ",
+            0.8867748629508309
+          ],
+          [
+            "አ",
+            0.8746150077793561
+          ],
+          [
+            "ac",
+            -0.00043933317989233435
+          ],
+          [
+            "ce",
+            -0.00043933317989233435
+          ],
+          [
+            "cc",
+            -0.00043933317989233435
+          ]
+        ],
+        "top_negative": [
+          [
+            "has_digits",
+            -0.3641274565936237
+          ],
+          [
+            "has_currency",
+            -0.3428950116103736
+          ],
+          [
+            "has_location_words",
+            -0.32771370494108043
+          ],
+          [
+            "ር",
+            -0.16947921225486845
+          ],
+          [
+            "ብ",
+            -0.16322501562233702
+          ],
+          [
+            "ር ",
+            -0.15356468672451296
+          ],
+          [
+            "ብር",
+            -0.14846620691231283
+          ],
+          [
+            " ብ",
+            -0.14802749114305394
+          ],
+          [
+            "0",
+            -0.12236373558545975
+          ],
+          [
+            "ስ",
+            -0.12005190785291171
+          ]
+        ]
+      },
+      "I-PRICE": {
+        "top_positive": [
+          [
+            "has_currency",
+            2.889888434096369
+          ],
+          [
+            " ብ",
+            1.608140732096151
+          ],
+          [
+            "ብር",
+            1.5006378849426965
+          ],
+          [
+            "ር ",
+            1.377676423452581
+          ],
+          [
+            "ብ",
+            1.3677583980652113
+          ],
+          [
+            "has_digits",
+            1.3230329807930628
+          ],
+          [
+            "ር",
+            1.194147579466435
+          ],
+          [
+            "ነው",
+            1.0354147335946908
+          ],
+          [
+            "ው ",
+            1.0354147335946908
+          ],
+          [
+            " ነ",
+            0.8632721740376467
+          ]
+        ],
+        "top_negative": [
+          [
+            "።",
+            -0.7745567897275362
+          ],
+          [
+            "። ",
+            -0.7745567897275362
+          ],
+          [
+            " ።",
+            -0.7745567897275362
+          ],
+          [
+            "has_location_words",
+            -0.4215825687225678
+          ],
+          [
+            "length",
+            -0.28607674259378507
+          ],
+          [
+            "30",
+            -0.28441095176566483
+          ],
+          [
+            "ስ",
+            -0.2786627934020459
+          ],
+          [
+            "5 ",
+            -0.2712690284321559
+          ],
+          [
+            "4",
+            -0.26498862192317263
+          ],
+          [
+            "6",
+            -0.24730839997908957
+          ]
+        ]
+      },
+      "O": {
+        "top_positive": [
+          [
+            " ።",
+            1.279532612079116
+          ],
+          [
+            "። ",
+            1.279532612079116
+          ],
+          [
+            "።",
+            1.279532612079116
+          ],
+          [
+            " የ",
+            0.9841210571836453
+          ],
+          [
+            "የ",
+            0.9841210571836453
+          ],
+          [
+            "ቢ",
+            0.8021893337084245
+          ],
+          [
+            "አካ",
+            0.7666388874624739
+          ],
+          [
+            "ቢ ",
+            0.7666388874624739
+          ],
+          [
+            "ባቢ",
+            0.7666388874624739
+          ],
+          [
+            "ካባ",
+            0.7666388874624739
+          ]
+        ],
+        "top_negative": [
+          [
+            "has_digits",
+            -3.001405074488099
+          ],
+          [
+            "has_currency",
+            -2.0842725057933222
+          ],
+          [
+            "በ ",
+            -1.5548242668676928
+          ],
+          [
+            " ብ",
+            -1.2117958967955706
+          ],
+          [
+            "በ",
+            -1.0961956763417389
+          ],
+          [
+            "ብር",
+            -1.0401858553530319
+          ],
+          [
+            "ጋ ",
+            -1.0310822852262542
+          ],
+          [
+            "ጋ",
+            -1.0310822852262542
+          ],
+          [
+            " ዋ",
+            -1.0310822852262542
+          ],
+          [
+            "ዋጋ",
+            -1.0310822852262542
+          ]
+        ]
+      }
+    },
+    "difficult_patterns": [
+      {
+        "pattern": "B-LOCATION -> O",
+        "frequency": 17
+      },
+      {
+        "pattern": "O -> B-CONTACT_INFO",
+        "frequency": 12
+      },
+      {
+        "pattern": "O -> B-LOCATION",
+        "frequency": 10
+      },
+      {
+        "pattern": "I-PRICE -> B-PRICE",
+        "frequency": 8
+      },
+      {
+        "pattern": "B-PRICE -> I-PRICE",
+        "frequency": 4
+      },
+      {
+        "pattern": "I-PRICE -> O",
+        "frequency": 3
+      },
+      {
+        "pattern": "B-LOCATION -> B-PRICE",
+        "frequency": 2
+      },
+      {
+        "pattern": "B-CONTACT_INFO -> O",
+        "frequency": 2
+      },
+      {
+        "pattern": "B-LOCATION -> B-CONTACT_INFO",
+        "frequency": 1
+      },
+      {
+        "pattern": "I-LOCATION -> O",
+        "frequency": 1
+      },
+      {
+        "pattern": "B-PRICE -> B-CONTACT_INFO",
+        "frequency": 1
+      },
+      {
+        "pattern": "I-PRICE -> B-CONTACT_INFO",
+        "frequency": 1
+      },
+      {
+        "pattern": "I-LOCATION -> B-PRICE",
+        "frequency": 1
+      },
+      {
+        "pattern": "O -> B-PRICE",
+        "frequency": 1
+      }
+    ],
+    "recommendations": [
+      "Expand training data with more diverse examples",
+      "Improve handling of implicit entity references",
+      "Add more location and contact patterns",
+      "Consider ensemble methods for difficult cases"
+    ]
+  },
+  "model_performance": {
+    "classification_report": {
+      "B-CONTACT_INFO": {
+        "precision": 0.041666666666666664,
+        "recall": 0.2,
+        "f1-score": 0.06896551724137931,
+        "support": 5.0
+      },
+      "B-LOCATION": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 35.0
+      },
+      "B-PRICE": {
+        "precision": 0.7567567567567568,
+        "recall": 0.8484848484848485,
+        "f1-score": 0.8,
+        "support": 66.0
+      },
+      "I-LOCATION": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "I-PRICE": {
+        "precision": 0.8333333333333334,
+        "recall": 0.7758620689655172,
+        "f1-score": 0.8035714285714286,
+        "support": 58.0
+      },
+      "O": {
+        "precision": 0.7727272727272727,
+        "recall": 0.7597765363128491,
+        "f1-score": 0.7661971830985915,
+        "support": 179.0
+      },
+      "accuracy": 0.6898550724637681,
+      "macro avg": {
+        "precision": 0.40074733824733827,
+        "recall": 0.4306872422938692,
+        "f1-score": 0.4064556881518999,
+        "support": 345.0
+      },
+      "weighted avg": {
+        "precision": 0.686393607045781,
+        "recall": 0.6898550724637681,
+        "f1-score": 0.6866703368637613,
+        "support": 345.0
+      }
+    },
+    "accuracy": 0.6898550724637681,
+    "macro_f1": 0.4064556881518999,
+    "weighted_f1": 0.6866703368637613
+  }
+}

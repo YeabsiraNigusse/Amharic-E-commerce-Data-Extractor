@@ -1,0 +1,58 @@
+[
+  {
+    "Vendor":"Bole Fashion Store",
+    "Avg. Views\/Post":225.0,
+    "Posts\/Week":4.0,
+    "Avg. Price (ETB)":0,
+    "Lending Score":55.0,
+    "Total Posts":4,
+    "Price Listing Rate":"0.0%",
+    "Product Diversity":0,
+    "Location Coverage":0,
+    "Max Views":320,
+    "Recent Activity (30d)":0,
+    "Risk Category":"Medium Risk"
+  },
+  {
+    "Vendor":"Shiro Meda Cosmetics",
+    "Avg. Views\/Post":170.0,
+    "Posts\/Week":4.0,
+    "Avg. Price (ETB)":0,
+    "Lending Score":47.67,
+    "Total Posts":4,
+    "Price Listing Rate":"0.0%",
+    "Product Diversity":0,
+    "Location Coverage":0,
+    "Max Views":200,
+    "Recent Activity (30d)":0,
+    "Risk Category":"High Risk"
+  },
+  {
+    "Vendor":"Merkato Electronics",
+    "Avg. Views\/Post":98.33,
+    "Posts\/Week":3.0,
+    "Avg. Price (ETB)":0,
+    "Lending Score":31.86,
+    "Total Posts":3,
+    "Price Listing Rate":"0.0%",
+    "Product Diversity":0,
+    "Location Coverage":0,
+    "Max Views":120,
+    "Recent Activity (30d)":0,
+    "Risk Category":"High Risk"
+  },
+  {
+    "Vendor":"Piassa Books",
+    "Avg. Views\/Post":37.5,
+    "Posts\/Week":2.0,
+    "Avg. Price (ETB)":0,
+    "Lending Score":17.5,
+    "Total Posts":2,
+    "Price Listing Rate":"0.0%",
+    "Product Diversity":0,
+    "Location Coverage":0,
+    "Max Views":45,
+    "Recent Activity (30d)":0,
+    "Risk Category":"Very High Risk"
+  }
+]

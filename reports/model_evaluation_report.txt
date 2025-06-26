@@ -1,0 +1,33 @@
+============================================================
+AMHARIC NER MODEL EVALUATION REPORT
+============================================================
+
+OVERALL PERFORMANCE:
+  Accuracy:  0.5101
+  Precision: 0.2670
+  Recall:    0.5101
+  F1-Score:  0.3505
+
+ENTITY-LEVEL PERFORMANCE:
+  PRICE:
+    Precision: 0.0000
+    Recall:    0.0000
+    F1-Score:  0.0000
+    Count:     66 true, 0 predicted
+  LOCATION:
+    Precision: 0.0000
+    Recall:    0.0000
+    F1-Score:  0.0000
+    Count:     35 true, 1 predicted
+  CONTACT_INFO:
+    Precision: 0.0000
+    Recall:    0.0000
+    F1-Score:  0.0000
+    Count:     5 true, 2 predicted
+
+DIFFICULT CASES ANALYSIS:
+  Total difficult cases: 50
+  Common missed entities:
+    PRICE: 66 times
+    LOCATION: 35 times
+    CONTACT_INFO: 5 times

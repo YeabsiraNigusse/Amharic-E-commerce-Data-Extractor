@@ -1,0 +1,142 @@
+{
+  "lime_analysis": {
+    "text": "የሕፃናት ልብስ ዋጋ 500 ብር ነው። በቦሌ አካባቢ ይገኛል።",
+    "target_entity": "PRICE",
+    "feature_importance": [
+      [
+        "500",
+        0.85
+      ],
+      [
+        "ብር",
+        0.78
+      ],
+      [
+        "ዋጋ",
+        0.65
+      ],
+      [
+        "ቦሌ",
+        0.72
+      ],
+      [
+        "አካባቢ",
+        0.58
+      ],
+      [
+        "የሕፃናት",
+        -0.12
+      ],
+      [
+        "ልብስ",
+        0.23
+      ],
+      [
+        "ነው",
+        -0.05
+      ],
+      [
+        "ይገኛል",
+        0.15
+      ]
+    ],
+    "explanation_type": "LIME (Mock)",
+    "top_positive_features": [
+      "500",
+      "ብር",
+      "ዋጋ",
+      "ቦሌ",
+      "አካባቢ"
+    ],
+    "top_negative_features": [
+      "የሕፃናት",
+      "ነው"
+    ]
+  },
+  "shap_analysis": {
+    "explanation_type": "SHAP (Mock)",
+    "global_importance": {
+      "currency_indicators": [
+        "ብር",
+        "birr",
+        "ETB"
+      ],
+      "price_keywords": [
+        "ዋጋ",
+        "ዋጋው"
+      ],
+      "location_keywords": [
+        "አካባቢ",
+        "ቦሌ",
+        "መርካቶ",
+        "ፒያሳ"
+      ],
+      "product_indicators": [
+        "ልብስ",
+        "ጫማ",
+        "ስልክ",
+        "መጽሐፍ"
+      ],
+      "availability_keywords": [
+        "ይገኛል",
+        "ይሸጣል"
+      ]
+    },
+    "importance_scores": {
+      "PRICE": {
+        "currency_indicators": 0.92,
+        "price_keywords": 0.78,
+        "numbers": 0.85
+      },
+      "LOCATION": {
+        "location_keywords": 0.88,
+        "area_indicators": 0.65,
+        "availability_keywords": 0.45
+      },
+      "PRODUCT": {
+        "product_indicators": 0.72,
+        "descriptive_adjectives": 0.55
+      }
+    }
+  },
+  "difficult_cases": [
+    {
+      "text": "ዋጋ ይጠይቁ",
+      "issue": "No explicit price mentioned",
+      "explanation": "Model might incorrectly identify price entities due to price keyword"
+    },
+    {
+      "text": "500 ሰዎች መጡ",
+      "issue": "Number without currency context",
+      "explanation": "Model might confuse numbers with prices without currency indicators"
+    },
+    {
+      "text": "አዲስ አበባ ዩኒቨርሲቲ",
+      "issue": "Location in proper noun",
+      "explanation": "Model might miss location when part of institution name"
+    }
+  ],
+  "insights": {
+    "feature_dependencies": [
+      "Price detection heavily relies on currency indicators (ብር, ETB)",
+      "Location detection depends on area keywords (አካባቢ)",
+      "Context words significantly influence entity boundaries"
+    ],
+    "model_strengths": [
+      "Strong performance on explicit price mentions with currency",
+      "Good location detection with area indicators",
+      "Effective use of context for entity classification"
+    ],
+    "model_weaknesses": [
+      "Struggles with implicit price references",
+      "Difficulty with numbers in non-price contexts",
+      "Challenges with overlapping entity boundaries"
+    ],
+    "improvement_recommendations": [
+      "Add more diverse training examples for edge cases",
+      "Improve context understanding for ambiguous numbers",
+      "Enhance entity boundary detection algorithms",
+      "Consider ensemble methods for difficult cases"
+    ]
+  }
+}
