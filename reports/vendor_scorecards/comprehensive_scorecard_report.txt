@@ -1,0 +1,40 @@
+================================================================================
+ETHIOMART VENDOR SCORECARD FOR MICRO-LENDING
+================================================================================
+Generated on: 2025-06-26 05:39:32
+
+EXECUTIVE SUMMARY:
+  Total Vendors Analyzed: 4
+  Average Lending Score: 38.0
+  Top Performer: Bole Fashion Store (Score: 55.0)
+
+RISK DISTRIBUTION:
+  High Risk: 2 vendors (50.0%)
+  Medium Risk: 1 vendors (25.0%)
+  Very High Risk: 1 vendors (25.0%)
+
+VENDOR SCORECARD:
+--------------------------------------------------------------------------------
+              Vendor  Avg Views/Post  Posts/Week  Avg Price (ETB)  Lending Score
+  Bole Fashion Store           225.0         4.0                0           55.0
+Shiro Meda Cosmetics           170.0         4.0                0           47.7
+ Merkato Electronics            98.3         3.0                0           31.9
+        Piassa Books            37.5         2.0                0           17.5
+
+KEY INSIGHTS:
+  Top 3 Lending Candidates:
+    1. Bole Fashion Store (Score: 55.0)
+    2. Shiro Meda Cosmetics (Score: 47.67)
+    3. Merkato Electronics (Score: 31.86)
+
+  Market Averages:
+    Average Views per Post: 132.7
+    Average Posting Frequency: 3.2 posts/week
+    Average Price Point: 0.0 ETB
+
+LENDING RECOMMENDATIONS:
+  1. Prioritize vendors with scores above 70 for immediate lending
+  2. Vendors with scores 50-70 may qualify with additional requirements
+  3. Vendors below 50 should focus on business development first
+  4. Monitor posting frequency and engagement trends over time
+  5. Consider seasonal variations in business activity

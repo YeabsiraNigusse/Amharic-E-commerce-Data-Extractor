@@ -1,0 +1,33 @@
+============================================================
+VENDOR SCORECARD: BOLE FASHION STORE
+============================================================
+
+EXECUTIVE SUMMARY:
+  Lending Score: 50.0/100
+  Risk Level: Medium Risk
+
+KEY PERFORMANCE METRICS:
+  Average Views per Post: 225.0
+  Posting Frequency: 4.0 posts/week
+  Average Price Point: 0 ETB
+  Price Listing Rate: 0.0%
+
+BUSINESS PROFILE:
+  Total Posts: 4
+  Product Diversity: 0 unique products
+  Location Coverage: 0 locations
+  Price Range: 0-0 ETB
+
+TOP PERFORMING POST:
+  Views: 320
+  Content: ሴቶች ጫማ 1200 ብር። ከውጭ የመጣ። በቦሌ አካባቢ ይገኛል።...
+  Date: 2024-01-17T09:15:00
+
+RECOMMENDATIONS FOR IMPROVEMENT:
+  1. Include prices in more posts to improve transparency
+  2. Diversify product offerings to reduce risk
+
+LENDING ASSESSMENT:
+  ⚠️  CONDITIONAL: Consider with additional requirements
+  - Moderate business activity
+  - May require collateral or guarantor

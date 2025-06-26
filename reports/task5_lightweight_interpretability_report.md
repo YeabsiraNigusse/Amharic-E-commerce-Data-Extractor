@@ -1,0 +1,132 @@
+
+# TASK 5: LIGHTWEIGHT MODEL INTERPRETABILITY REPORT
+
+## Executive Summary
+
+This report provides interpretability analysis for a lightweight NER model trained on Amharic e-commerce data. The model achieves 69.0% accuracy while being memory-efficient and fast.
+
+## Model Architecture
+
+**Model Type**: Lightweight sklearn-based NER
+- **Base Algorithm**: Logistic Regression with MultiOutput Classification
+- **Features**: TF-IDF character n-grams + manual features
+- **Training Samples**: 238 tokens
+- **Labels**: 6 entity types
+
+## Feature Importance Analysis
+
+### Price Detection (B-PRICE, I-PRICE)
+
+**Top Positive Features**:
+- has_digits: 3.321
+- በ : 1.497
+-  ዋ: 1.391
+- ጋ : 1.391
+- ዋጋ: 1.391
+
+
+### Location Detection (B-LOCATION, I-LOCATION)
+
+**Top Positive Features**:
+- has_location_words: 1.859
+- ስ : 1.701
+-  ጎ: 1.039
+- ቶ : 1.012
+- ፋ: 0.928
+
+
+## Individual Prediction Explanations
+
+
+### Example 1: የሕፃናት ልብስ ዋጋ 500 ብር ነው። በቦሌ አካባቢ ይገኛል።
+
+**Predictions**: [('የሕፃናት', 'O'), ('ልብስ', 'O'), ('ዋጋ', 'B-PRICE'), ('500', 'B-PRICE'), ('ብር', 'I-PRICE'), ('ነው።', 'O'), ('በቦሌ', 'B-CONTACT_INFO'), ('አካባቢ', 'O'), ('ይገኛል።', 'O')]
+
+**Token-level Explanations**:
+- **ዋጋ** → B-PRICE: Currency word present in context; Price keyword (ዋጋ) present in context
+- **500** → B-PRICE: Contains digits (strong price indicator); Currency word present in context; Price keyword (ዋጋ) present in context
+- **ብር** → I-PRICE: Currency word present in context; Price keyword (ዋጋ) present in context
+- **በቦሌ** → B-CONTACT_INFO: Classified based on context and learned patterns
+
+### Example 2: ሴቶች ጫማ 800 ብር። መርካቶ አካባቢ።
+
+**Predictions**: [('ሴቶች', 'O'), ('ጫማ', 'O'), ('800', 'B-PRICE'), ('ብር።', 'I-PRICE'), ('መርካቶ', 'B-LOCATION'), ('አካባቢ።', 'O')]
+
+**Token-level Explanations**:
+- **800** → B-PRICE: Contains digits (strong price indicator); Currency word present in context
+- **ብር።** → I-PRICE: Currency word present in context
+- **መርካቶ** → B-LOCATION: Location keywords present; Area indicator (አካባቢ) present
+
+
+## Difficult Cases Analysis
+
+**Total Difficult Cases**: 23
+**Accuracy Threshold**: 70%
+
+**Common Error Patterns**:
+- B-LOCATION -> O: 17 occurrences
+- O -> B-CONTACT_INFO: 12 occurrences
+- O -> B-LOCATION: 10 occurrences
+- I-PRICE -> B-PRICE: 8 occurrences
+- B-PRICE -> I-PRICE: 4 occurrences
+
+
+## Model Behavior Insights
+
+### Strengths
+- **Price Detection**: Strong performance on explicit price mentions with currency
+- **Pattern Recognition**: Effective use of character n-grams for Amharic text
+- **Efficiency**: Fast training and prediction suitable for production
+
+### Weaknesses
+- **Context Understanding**: Limited ability to understand complex contexts
+- **Ambiguous Cases**: Struggles with implicit entity references
+- **Location Coverage**: Limited to predefined location patterns
+
+## Interpretability Features
+
+### 1. Feature Importance
+- **TF-IDF Features**: Character-level patterns important for Amharic
+- **Manual Features**: Digit presence, currency indicators, location keywords
+- **Coefficient Analysis**: Direct interpretation of logistic regression weights
+
+### 2. Prediction Explanations
+- **Rule-based Reasoning**: Clear explanations for classification decisions
+- **Context Analysis**: Identification of supporting evidence in text
+- **Confidence Indicators**: Feature-based confidence assessment
+
+### 3. Error Analysis
+- **Systematic Identification**: Automatic detection of difficult cases
+- **Pattern Recognition**: Common error types and frequencies
+- **Improvement Guidance**: Specific recommendations for model enhancement
+
+## Recommendations for Improvement
+
+1. Expand training data with more diverse examples
+2. Improve handling of implicit entity references
+3. Add more location and contact patterns
+4. Consider ensemble methods for difficult cases
+
+
+## Comparison with Transformer Models
+
+### Advantages of Lightweight Approach
+- **Memory Efficiency**: Requires minimal computational resources
+- **Interpretability**: Direct access to feature weights and decision logic
+- **Speed**: Fast training and inference
+- **Transparency**: Clear understanding of model behavior
+
+### Trade-offs
+- **Accuracy**: Lower performance compared to transformer models
+- **Context**: Limited understanding of long-range dependencies
+- **Generalization**: Less robust to unseen patterns
+
+## Conclusion
+
+The lightweight NER model provides a good balance between performance and interpretability for resource-constrained environments. While it achieves lower accuracy than transformer models, it offers clear insights into decision-making processes and can be effectively used for understanding entity detection patterns in Amharic text.
+
+The interpretability analysis reveals that the model relies heavily on explicit indicators (currency symbols, location names) and character-level patterns, making it suitable for applications where transparency is more important than maximum accuracy.
+
+---
+*Generated by Lightweight Model Interpretability Analysis*
+*Date: 2025-06-26*

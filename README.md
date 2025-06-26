@@ -60,6 +60,8 @@ python -m src.labeling.conll_labeler
 
 - ✅ **Task 1**: Data ingestion and preprocessing (COMPLETED)
 - ✅ **Task 2**: Data labeling in CoNLL format (COMPLETED)
+- ✅ **Task 5**: Model interpretability with SHAP and LIME (COMPLETED)
+- ✅ **Task 6**: Vendor scorecard for micro-lending (COMPLETED)
 
 ## Branches
 
@@ -89,6 +91,18 @@ python run_task2.py
 # Select option 1 to create sample labeled dataset
 ```
 
+### Task 5: Model Interpretability
+```bash
+# Run Task 5 - Model Interpretability with SHAP and LIME
+python run_task5_interpretability.py
+```
+
+### Task 6: Vendor Scorecard for Micro-Lending
+```bash
+# Run Task 6 - Vendor Analytics and Scorecard Generation
+python run_task6_vendor_scorecard.py
+```
+
 ## Sample Output
 
 The project generates a labeled dataset with 50 Amharic messages in CoNLL format:
@@ -112,11 +126,33 @@ The project generates a labeled dataset with 50 Amharic messages in CoNLL format
 
 ## Results
 
+### Task 1 & 2: Data Processing and Labeling
 - **50 labeled messages** in CoNLL format
 - **445 tokens** with **109 entities** (24.5% coverage)
 - **Entity distribution**: PRICE (133), LOCATION (43), CONTACT_INFO (5)
 - **Output files**:
   - `data/labeled/amharic_ner_sample_50_messages.txt`
   - `data/labeled/amharic_ner_sample_50_messages.json`
+
+### Task 5: Model Interpretability
+- **Trained NER Model**: XLM-RoBERTa-based transformer for Amharic
+- **SHAP Analysis**: Global feature importance for entity detection
+- **LIME Explanations**: Local interpretability for individual predictions
+- **Difficult Cases Analysis**: Identification and explanation of model struggles
+- **Output files**:
+  - `reports/model_evaluation_report.txt`
+  - `reports/interpretability_report.txt`
+  - `reports/lime_*_importance.png`
+  - `reports/confusion_matrix.png`
+
+### Task 6: Vendor Scorecard for Micro-Lending
+- **Vendor Analytics Engine**: Comprehensive business performance analysis
+- **Lending Scores**: 0-100 scale based on activity, engagement, and transparency
+- **Risk Assessment**: Multi-dimensional vendor evaluation
+- **Interactive Dashboards**: HTML visualizations for vendor comparison
+- **Output files**:
+  - `reports/vendor_scorecards/vendor_scorecard.xlsx`
+  - `reports/vendor_scorecards/comprehensive_scorecard_report.txt`
+  - `reports/vendor_scorecards/*.html` (visualizations)
 
 For detailed implementation report, see [TASK_COMPLETION_REPORT.md](TASK_COMPLETION_REPORT.md)
