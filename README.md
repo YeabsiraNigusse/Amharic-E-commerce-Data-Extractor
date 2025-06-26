@@ -60,6 +60,8 @@ python -m src.labeling.conll_labeler
 
 - ✅ **Task 1**: Data ingestion and preprocessing (COMPLETED)
 - ✅ **Task 2**: Data labeling in CoNLL format (COMPLETED)
+- ✅ **Task 3**: Model training and evaluation (COMPLETED)
+- ✅ **Task 4**: Model deployment and API (COMPLETED)
 - ✅ **Task 5**: Model interpretability with SHAP and LIME (COMPLETED)
 - ✅ **Task 6**: Vendor scorecard for micro-lending (COMPLETED)
 
@@ -68,6 +70,9 @@ python -m src.labeling.conll_labeler
 - `main`: Main development branch
 - `task-1`: Data ingestion and preprocessing ✅
 - `task-2`: Data labeling in CoNLL format ✅
+- `task-3`: Model training and evaluation ✅
+- `task-4`: Model deployment and API ✅
+- `feature/tasks-5-6-implementation`: Model interpretability and vendor scorecard ✅
 
 ## Quick Start
 
@@ -89,6 +94,18 @@ python run_task1.py
 # Run Task 2
 python run_task2.py
 # Select option 1 to create sample labeled dataset
+```
+
+### Task 3: Model Training and Evaluation
+```bash
+# Run Task 3 - Train NER model
+python src/models/ner_trainer.py
+```
+
+### Task 4: Model Deployment and API
+```bash
+# Run Task 4 - Deploy model API
+python src/api/model_api.py
 ```
 
 ### Task 5: Model Interpretability
@@ -133,6 +150,12 @@ The project generates a labeled dataset with 50 Amharic messages in CoNLL format
 - **Output files**:
   - `data/labeled/amharic_ner_sample_50_messages.txt`
   - `data/labeled/amharic_ner_sample_50_messages.json`
+
+### Task 3 & 4: Model Training and Deployment
+- **Trained NER Model**: XLM-RoBERTa-based transformer for Amharic
+- **Model Performance**: Optimized for Ethiopian e-commerce entity detection
+- **API Deployment**: RESTful API for real-time entity extraction
+- **Production Ready**: Scalable deployment with proper error handling
 
 ### Task 5: Model Interpretability
 - **Trained NER Model**: XLM-RoBERTa-based transformer for Amharic
