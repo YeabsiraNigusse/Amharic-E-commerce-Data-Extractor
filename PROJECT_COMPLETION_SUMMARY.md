@@ -36,35 +36,35 @@ The **Amharic E-commerce Data Extractor** project has been successfully complete
 - Multiple output formats (TXT, JSON)
 - Comprehensive entity coverage
 
-### ✅ Task 3: Model Training and Evaluation
+### ✅ Task 3: Fine Tune NER Model
 **Status**: COMPLETED ✅ **Merged**: ✅
 
 **Achievements**:
-- XLM-RoBERTa-based transformer model for Amharic NER
+- XLM-RoBERTa-based transformer model fine-tuned for Amharic NER
 - Optimized training pipeline with memory efficiency
-- Comprehensive model evaluation metrics
+- Domain-specific fine-tuning for Ethiopian e-commerce
 - Production-ready model artifacts
 
 **Key Features**:
 - Multilingual transformer architecture
 - Fine-tuning for Amharic e-commerce domain
-- Cross-validation and performance metrics
+- Hyperparameter optimization
 - Model versioning and artifact management
 
-### ✅ Task 4: Model Deployment and API
+### ✅ Task 4: Model Comparison & Selection
 **Status**: COMPLETED ✅ **Merged**: ✅
 
 **Achievements**:
-- RESTful API for real-time entity extraction
-- Scalable deployment architecture
-- Comprehensive error handling and logging
-- Production-ready service endpoints
+- Systematic comparison of multiple NER model architectures
+- Comprehensive evaluation metrics and benchmarking
+- Data-driven model selection process
+- Performance optimization and validation
 
 **Key Features**:
-- FastAPI-based web service
-- Batch and single text processing
-- API documentation and testing
-- Health checks and monitoring
+- Multiple model architecture evaluation
+- Cross-validation and performance metrics
+- Model comparison framework
+- Best model selection criteria
 
 ### ✅ Task 5: Model Interpretability
 **Status**: COMPLETED ✅ **Merged**: ✅
@@ -106,9 +106,9 @@ Amharic E-commerce Data Extractor
 │   ├── Labeling & Annotation
 │   └── Quality Assurance
 ├── ML Pipeline (Tasks 3-4)
-│   ├── Model Training & Evaluation
-│   ├── API Deployment
-│   └── Production Services
+│   ├── Model Fine-Tuning
+│   ├── Model Comparison & Selection
+│   └── Performance Optimization
 └── Intelligence Layer (Tasks 5-6)
     ├── Model Interpretability
     ├── Business Analytics

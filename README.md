@@ -70,8 +70,8 @@ python -m src.labeling.conll_labeler
 - `main`: Main development branch
 - `task-1`: Data ingestion and preprocessing ✅
 - `task-2`: Data labeling in CoNLL format ✅
-- `task-3`: Model training and evaluation ✅
-- `task-4`: Model deployment and API ✅
+- `task-3`: Fine Tune NER Model ✅
+- `task-4`: Model Comparison & Selection ✅
 - `feature/tasks-5-6-implementation`: Model interpretability and vendor scorecard ✅
 
 ## Quick Start
